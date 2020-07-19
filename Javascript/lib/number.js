@@ -1,9 +1,10 @@
-var decimalToBinary = require('./convert-decimal-number-to-binary-number')
-
 module.exports = {
+    isInt: function (number) {
+        return Number(number) % 1 == 0;
+    },
     convert: {
-        decimalToBinary: function (decimal_number) {
-            return decimalToBinary(decimal_number)
+        ToBinary: function (number) {
+            return Number(number).toString(2);
         }
     }
 }
