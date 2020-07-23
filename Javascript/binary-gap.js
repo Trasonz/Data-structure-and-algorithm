@@ -21,12 +21,12 @@ Write an efficient algorithm for the following assumptions:
 */
 
 const file_stream = require('fs')
-var lib_number = require('./lib/number')
+var numberLibrary = require('./lib/number-library')
 
 
 function binaryGap (number) {
-    binary_number = lib_number.convert.ToBinary(number);
-    console.log('binary_number: ' + binary_number);
+    binary_number = numberLibrary.convert.ToBinary(number);
+    console.log('Binary number: ' + binary_number);
     let start = null;
     let end = null;
     let max_zero_length = 0;
@@ -48,13 +48,13 @@ function binaryGap (number) {
     return max_zero_length;
 }
 
-var input_file = '1-binary-gap-input.txt';
+var input_file = 'binary-gap-input.txt';
 file_stream.readFile(input_file, (error, data) => {
     if (error) {
         throw error;
     }
-    if (lib_number.isInt(data)) {
-        console.log(binaryGap(data));
+    if (numberLibrary.isInt(data)) {
+        console.log('Longest sequence of zeros: ' + binaryGap(data));
     }
     else {
         throw "Error! Please input a decimal number"
