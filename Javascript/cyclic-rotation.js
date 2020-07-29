@@ -43,24 +43,28 @@ const file_stream = require('fs')
 
 function cyclicRotation(array_string, k_times) {
     array = JSON.parse(array_string);
-    let middle_point = Math.ceil(array.length / 2);
-    remain_times = k_times % array.length;
-    if (remain_times == 0) {
-        return array;
-    } else if (remain_times >= middle_point && remain_times < array.length) {
-        for (let index = 0; index < (array.length - remain_times); index++) {
-            let first_number = array.shift();
-            array.push(first_number);
-        }
+    if (array.length < 2) {
         return array;
     } else {
-        for (let index = 0; index < k_times; index++) {
-            let last_number = array.pop();
-            array.unshift(last_number);
+        let middle_point = Math.ceil(array.length / 2);
+        remain_times = k_times % array.length;
+        if (remain_times == 0) {
+            return array;
+        } else if (remain_times >= middle_point && remain_times < array.length) {
+            for (let index = 0; index < (array.length - remain_times); index++) {
+                let first_number = array.shift();
+                array.push(first_number);
+            }
+            return array;
+        } else {
+            for (let index = 0; index < k_times; index++) {
+                let last_number = array.pop();
+                array.unshift(last_number);
+            }
+            return array;
         }
         return array;
     }
-    return array;
 }
 
 function main() {
