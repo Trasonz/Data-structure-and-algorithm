@@ -33,59 +33,11 @@ Write an efficient algorithm for the following assumptions:
 
 */
 
-const file_stream = require('fs')
+const fileStream = require('fs')
 
-function oddOccurencesInArray(array_string) {
-  let array = JSON.parse(array_string);
-  if (array.length == 1) {
-    return array[0];
-  }
-  else {
-    array.sort((a, b) => a - b);
-    let result;
-    let current_number = array[0];
-    let count = 0;
-    for (let index = 0; index < array.length; index++) {
-      if (array[index] == current_number) {
-        count++;
-      } else {
-        if (array[index] != current_number) {
-          if (count % 2 == 1) {
-            result = array[index - 1];
-            break;
-          } else {
-            current_number = array[index];
-            count = 1;
-          }
-          if (index == array.length - 1) {
-            result = array[index];
-          }
-        }
-      }
-    }
-    return result;
-  }
-}
-
-// [2, 2, 3, 3, 4]
-
-function main() {
-  var input_file = 'odd-occurrences-in-array-input.txt';
-  file_stream.readFile(input_file, 'utf8', (error, data) => {
-    if (error) {
-      throw error;
-    }
-    let lines = data.split('\r\n');
-    for (let index = 0; index < lines.length; index++) {
-      console.log(`Result: ${oddOccurencesInArray(lines[index])}`);
-    }
-  });
-}
-
-main();
-
-
-function solution(array) {
+/* Another solution using XOR */
+/*
+function oddOccurencesInArray(array) {
   if (array.length == 1) {
     return array[0];
   }
@@ -98,3 +50,51 @@ function solution(array) {
     return value;
   }
 }
+*/
+
+function oddOccurencesInArray(arrayString) {
+  let array = JSON.parse(arrayString);
+  if (array.length == 1) {
+    return array[0];
+  }
+  else {
+    array.sort((a, b) => a - b);
+    let result;
+    let currentNumber = array[0];
+    let count = 0;
+    for (let index = 0; index < array.length; index++) {
+      if (array[index] == currentNumber) {
+        count++;
+      } else {
+        if (array[index] != currentNumber) {
+          if (count % 2 == 1) {
+            result = array[index - 1];
+            break;
+          } else {
+            currentNumber = array[index];
+            count = 1;
+          }
+          if (index == array.length - 1) {
+            result = array[index];
+          }
+        }
+      }
+    }
+    return result;
+  }
+}
+
+function main() {
+  var inputFile = 'odd-occurrences-in-array-input.txt';
+  fileStream.readFile(inputFile, 'utf8', (error, data) => {
+    if (error) {
+      throw error;
+    }
+    let lines = data.split('\r\n');
+    for (let index = 0; index < lines.length; index++) {
+      console.log(`Result: ${oddOccurencesInArray(lines[index])}\t${lines[index]}`);
+    }
+  });
+}
+
+main();

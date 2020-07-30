@@ -19,17 +19,16 @@ Write an efficient algorithm for the following assumptions:
 Copyright 2009–2020 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited. 
 
 */
-const file_stream = require('fs')
-var sortLibrary = require('./lib/sort-library')
+const fileStream = require('fs')
 
-function missingInteger(array_string) {
-    let array = JSON.parse(array_string);
+function missingInteger(arrayString) {
+    let array = JSON.parse(arrayString);
     array.sort((a, b) => a - b);
-    let missing_number = 1;
+    let missingNumber = 1;
     for (let index = 0; index < array.length; index++) {
         if (array[index] > 0) {            
-            if (missing_number == array[index]) {
-                missing_number++;
+            if (missingNumber == array[index]) {
+                missingNumber++;
             } else{
                 if (array[index] != array[index -1]) {
                     break;
@@ -37,18 +36,18 @@ function missingInteger(array_string) {
             }
         }
     }
-    return missing_number;
+    return missingNumber;
 }
 
 function main() {
-    var input_file = 'missing-interger.txt';
-    file_stream.readFile(input_file, 'utf8', (error, data) => {
+    var inputFile = 'missing-interger.txt';
+    fileStream.readFile(inputFile, 'utf8', (error, data) => {
         if (error) {
             throw error;
         }
         let lines = data.split('\r\n');
         for (let index = 0; index < lines.length; index++) {
-            console.log(`Result: ${missingInteger(lines[index])}`);
+            console.log(`Result: ${missingInteger(lines[index])}\t${lines[index]}`);
         }
     });
 }

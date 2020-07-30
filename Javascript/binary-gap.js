@@ -20,36 +20,36 @@ Write an efficient algorithm for the following assumptions:
 
 */
 
-const file_stream = require('fs')
+const fileStream = require('fs')
 var numberLibrary = require('./lib/number-library')
 
 
 function binaryGap (number) {
-    binary_number = numberLibrary.convert.ToBinary(number);
-    console.log('Binary number: ' + binary_number);
+    binaryNumber = numberLibrary.convert.ToBinary(number);
+    console.log('Binary number: ' + binaryNumber);
     let start = null;
     let end = null;
-    let max_zero_length = 0;
-    for (let i = 0; i < binary_number.length; i++) {
-        if (Number(binary_number[i]) === 1) {
+    let maxZeroLength = 0;
+    for (let i = 0; i < binaryNumber.length; i++) {
+        if (Number(binaryNumber[i]) === 1) {
             if (start == null && end == null) {
                 start = i;
             } else if (start != null && end == null) {
                 end = i;
-                let zero_length = end - (start + 1);
-                if (zero_length > max_zero_length) {
-                    max_zero_length = zero_length;
+                let zeroLength = end - (start + 1);
+                if (zeroLength > maxZeroLength) {
+                    maxZeroLength = zeroLength;
                 }
                 start = i;
                 end = null;
             }
         }
     }
-    return max_zero_length;
+    return maxZeroLength;
 }
 
-var input_file = 'binary-gap-input.txt';
-file_stream.readFile(input_file, (error, data) => {
+var inputFile = 'binary-gap-input.txt';
+fileStream.readFile(inputFile, (error, data) => {
     if (error) {
         throw error;
     }

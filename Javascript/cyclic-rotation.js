@@ -39,37 +39,36 @@ Assume that:
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
 */
-const file_stream = require('fs')
+const fileStream = require('fs')
 
-function cyclicRotation(array_string, k_times) {
-    array = JSON.parse(array_string);
+function cyclicRotation(arrayString, rotateTimes) {
+    array = JSON.parse(arrayString);
     if (array.length < 2) {
         return array;
     } else {
-        let middle_point = Math.ceil(array.length / 2);
-        remain_times = k_times % array.length;
-        if (remain_times == 0) {
+        let middlePoint = Math.ceil(array.length / 2);
+        remainingRotateTimes = rotateTimes % array.length;
+        if (remainingRotateTimes == 0) {
             return array;
-        } else if (remain_times >= middle_point && remain_times < array.length) {
-            for (let index = 0; index < (array.length - remain_times); index++) {
-                let first_number = array.shift();
-                array.push(first_number);
+        } else if (remainingRotateTimes >= middlePoint && remainingRotateTimes < array.length) {
+            for (let index = 0; index < (array.length - remainingRotateTimes); index++) {
+                let firstNumber = array.shift();
+                array.push(firstNumber);
             }
             return array;
         } else {
-            for (let index = 0; index < k_times; index++) {
-                let last_number = array.pop();
-                array.unshift(last_number);
+            for (let index = 0; index < rotateTimes; index++) {
+                let lastNumber = array.pop();
+                array.unshift(lastNumber);
             }
             return array;
         }
-        return array;
     }
 }
 
 function main() {
-    var input_file = 'cyclic-rotation-input.txt';
-    file_stream.readFile(input_file, 'utf8', (error, data) => {
+    var inputFile = 'cyclic-rotation-input.txt';
+    fileStream.readFile(inputFile, 'utf8', (error, data) => {
         if (error) {
             throw error;
         }

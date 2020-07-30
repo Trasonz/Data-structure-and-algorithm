@@ -20,7 +20,7 @@ module.exports = {
         for (let index = 0; index < array.length; index++) {
             let min_value_index = index;
             for (let next_index = index + 1; next_index < array.length; next_index++) {
-                // change here
+                //               change here
                 if (array[next_index] < array[min_value_index]) {
                     min_value_index = next_index;
                 }
