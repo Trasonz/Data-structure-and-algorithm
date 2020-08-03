@@ -48,7 +48,7 @@ const fileStream = require('fs')
 
 function tapeEquilibrium(arrayString) {
   let array = JSON.parse(arrayString);
-  sumOfAllElements = array.reduce((a, b) => a + b, 0)
+  sumOfAllElements = array.reduce((a, b) => a + b, 0);
   let firstPartSum = 0;
   let secondPartSum = sumOfAllElements;
   let minimalDifference = 0;

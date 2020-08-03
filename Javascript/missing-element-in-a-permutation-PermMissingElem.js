@@ -30,7 +30,7 @@ const fileStream = require('fs')
 
 function missingIntegerInAPermutation(arrayString) {
   let array = JSON.parse(arrayString);
-  return ((array.length + 1) * ((array.length + 1 ) + 1) / 2) - array.reduce((a, b) => a + b, 0)
+  return ((array.length + 1) * ((array.length + 1 ) + 1) / 2) - array.reduce((a, b) => a + b, 0);
 }
 
 function main() {
