@@ -30,7 +30,7 @@ function missingInteger(arrayString) {
         if (array[index] > 0) {            
             if (missingNumber == array[index]) {
                 missingNumber++;
-            } else{
+            } else {
                 if (array[index] != array[index -1]) {
                     break;
                 }
