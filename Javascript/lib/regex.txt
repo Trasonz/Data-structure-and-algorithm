@@ -1,0 +1,5 @@
+A word contains one or more vowels
+/[aeiou]+/g
+A word contains two similar vowels place next to each other
+    + /([aeiou])\1/g
+    + aa|ee|ii|oo|uu

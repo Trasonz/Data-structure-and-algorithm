@@ -39,3 +39,8 @@ function isAnagrams(_firstString, _secondString) {
 }
 
 console.log(isAnagrams('a gentlemaN', 'elegant maN'));
+console.log(isAnagrams('Tar', 'Rat'));
+console.log(isAnagrams('Elbow', 'Below'));
+console.log(isAnagrams('State', 'Taste'));
+console.log(isAnagrams('Dusty', 'Study'));
+console.log(isAnagrams('Thing', 'Rat'));
