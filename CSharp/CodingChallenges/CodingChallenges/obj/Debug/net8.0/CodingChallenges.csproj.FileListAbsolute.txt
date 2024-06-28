@@ -1,0 +1,15 @@
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\bin\Debug\net8.0\CodingChallenges.exe
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\bin\Debug\net8.0\CodingChallenges.deps.json
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\bin\Debug\net8.0\CodingChallenges.runtimeconfig.json
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\bin\Debug\net8.0\CodingChallenges.dll
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\bin\Debug\net8.0\CodingChallenges.pdb
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.AssemblyInfoInputs.cache
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.AssemblyInfo.cs
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.csproj.CoreCompileInputs.cache
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.sourcelink.json
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.dll
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\refint\CodingChallenges.dll
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.pdb
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\CodingChallenges.genruntimeconfig.cache
+C:\Users\Thinh Le\Documents\Projects\coding-challenges\CSharp\CodingChallenges\CodingChallenges\obj\Debug\net8.0\ref\CodingChallenges.dll
