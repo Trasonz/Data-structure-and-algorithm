@@ -2,7 +2,7 @@
 
 namespace CodingChallenges.Problems.StringProblems
 {
-    internal class Subsequence
+    internal class _4_Subsequence
     {
         // Given two strings s and t,
         // return true if s is a subsequence of t,
@@ -19,9 +19,7 @@ namespace CodingChallenges.Problems.StringProblems
         {
             foreach (var _testCase in _testCases)
             {
-                Console.WriteLine($"Is '{
-                    _testCase.Key}' a subsequence of '{
-                    _testCase.Value}'? - {_testCase.Key.IsASubsequenceOf(_testCase.Value)}");
+                Console.WriteLine($"Is '{_testCase.Key}' a subsequence of '{_testCase.Value}'? - {_testCase.Key.IsASubsequenceOf(_testCase.Value)}");
             }
         }
     }

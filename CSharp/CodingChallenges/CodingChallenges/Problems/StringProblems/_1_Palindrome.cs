@@ -2,7 +2,7 @@
 
 namespace CodingChallenges.Problems.StringProblems
 {
-    public class Palindrome
+    public class _1_Palindrome
     {
         // Given a string s, return true if it is a palindrome, false otherwise.
         private readonly List<string> _testCases =

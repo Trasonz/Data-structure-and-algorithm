@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Problems\ArrayProblems\Unsorted\" />
+    <Folder Include="Problems\ArrayProblems\Sorted\TwoIterationIndexesSolution\" />
   </ItemGroup>
 
 </Project>
