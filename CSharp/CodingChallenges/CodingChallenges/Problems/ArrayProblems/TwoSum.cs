@@ -1,158 +1,171 @@
 ﻿using CodingChallenges.Dtos;
 using CodingChallenges.Utilities;
 
-namespace CodingChallenges.Problems.ArrayProblems
+namespace CodingChallenges.Problems.ArrayProblems;
+
+internal static class TwoSum
 {
-    internal class TwoSum
+    // Given a SORTED array of unique integers and a target integer,
+    // return true if there exists a pair of sortedNumbers that sum to target, false otherwise.
+    // Given a string s, return true if it is a palindrome, false otherwise.
+    private static readonly List<TestCaseDto<int>> _testCases1 =
+    [
+        new()
+        {
+            ArrayOfElements = [2, 7, 11, 15],
+            Element = 9
+        },
+        new()
+        {
+            ArrayOfElements = [1, 2, 3, 4, 6, 8],
+            Element = 10
+        }
+    ];
+
+    // Given a UNSORTED array of unique integers and a target integer,
+    // return true if there exists a pair of sortedNumbers that sum to target, false otherwise.
+    // Given a string s, return true if it is a palindrome, false otherwise.
+    private static readonly List<TestCaseDto<int>> _testCases2 =
+    [
+        new()
+        {
+            ArrayOfElements = [2, 7, 11, 15],
+            Element = 9
+        },
+        new()
+        {
+            ArrayOfElements = [3, 6, 4, 8, 1, 2],
+            Element = 10
+        },
+        new()
+        {
+            ArrayOfElements = [3, 2, 4],
+            Element = 6
+        },
+        new()
+        {
+            ArrayOfElements = [3, 3],
+            Element = 6
+        },
+        new()
+        {
+            ArrayOfElements = [1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1],
+            Element = 11
+        }
+    ];
+
+    public static bool HasTwoNumbersHaveSumEqualTargetNumber(
+        int[] sortedNumbers,
+        int k)
     {
-        // Given a sorted array of unique integers and a target integer,
-        // return true if there exists a pair of sortedNumbers that sum to target, false otherwise.
-        // Given a string s, return true if it is a palindrome, false otherwise.
-        private readonly List<TestCaseDto<int>> _testCases =
-        [
-            new() 
-            {
-                ArrayOfElements = [2, 7, 11, 15],
-                Integer = 9,
-                ExpectedArrayOfIntegers = [0, 1]
-            },
-            new() 
-            {
-                ArrayOfElements = [3, 2, 4],
-                Integer = 6,
-                ExpectedArrayOfIntegers = [1, 2]
-            },
-            new() 
-            {
-                ArrayOfElements = [3, 3],
-                Integer = 6,
-                ExpectedArrayOfIntegers = [0, 1] 
-            },
-            new() 
-            {
-                ArrayOfElements = [1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1], 
-                Integer = 11,
-                ExpectedArrayOfIntegers = [5, 11]
-            }
-        ];
+        int leftIndex = 0;
+        int rightIndex = sortedNumbers.Length - 1;
 
-        /*
-         * [Tip] Use interation pointers
-         * Time complexity: O(n), with n is sortedNumbers.Count. 
-         * Space complexity: O(1). 
-         */
-        public static bool HasTwoSumInSortedArray(
-            int[] sortedNumbers,
-            int k)
+        while (leftIndex < rightIndex)
         {
-            int leftIndex = 0;
-            int rightIndex = sortedNumbers.Length - 1;
+            var sum = sortedNumbers[leftIndex] + sortedNumbers[rightIndex];
 
-            while (leftIndex < rightIndex)
+            if (sum == k)
             {
-                var sum = sortedNumbers[leftIndex] + sortedNumbers[rightIndex];
-
-                if (sum == k)
-                {
-                    // sum == k
-                    return true;
-                }
-
-                if (sum > k)
-                {
-                    rightIndex--;
-                    continue;
-                }
-
-                if (sum < k)
-                {
-                    leftIndex++;
-                    continue;
-                }
+                // sum == k
+                return true;
             }
 
-            return false;
+            if (sum > k)
+            {
+                rightIndex--;
+                continue;
+            }
+
+            if (sum < k)
+            {
+                leftIndex++;
+                continue;
+            }
         }
 
-        /*
-         * [Tip] Use interation pointers
-         * Time complexity: O(n), with n is sortedNumbers.Count. 
-         * Space complexity: O(1). 
-         */
-        public static int[] FindTwoIndicesHasSumEqualTargetNumberInASortedArray(
-            int[] numbers,
-            int k)
+        return false;
+    }
+
+    public static int[] FindTwoIndicesHasSumEqualTargetNumberUsingTwoIterationIndices(
+        int[] numbers,
+        int k)
+    {
+        int leftIndex = 0;
+        int rightIndex = numbers.Length - 1;
+
+        while (leftIndex < rightIndex)
         {
-            int leftIndex = 0;
-            int rightIndex = numbers.Length - 1;
+            var sum = numbers[leftIndex] + numbers[rightIndex];
 
-            while (leftIndex < rightIndex)
+            if (sum == k)
             {
-                var sum = numbers[leftIndex] + numbers[rightIndex];
-
-                if (sum == k)
-                {
-                    break;
-                }
-
-                if (sum > k)
-                {
-                    rightIndex--;
-                    continue;
-                }
-
-                if (sum < k)
-                {
-                    leftIndex++;
-                    continue;
-                }
+                break;
             }
 
-            return [leftIndex, rightIndex];
+            if (sum > k)
+            {
+                rightIndex--;
+                continue;
+            }
+
+            if (sum < k)
+            {
+                leftIndex++;
+                continue;
+            }
         }
 
-        /*
-         * [Tip] Use Hash map
-         * Time complexity: O(n)
-         * Space complexity: O(1). 
-         */
-        public static int[] FindTwoIndicesHasSumEqualTargetNumberInAnUnsortedArray(
-            int[] numbers,
-            int targetSum)
+        return [leftIndex, rightIndex];
+    }
+
+    public static int[] FindTwoIndicesHasSumEqualTargetNumberUsingHashMap(
+        int[] numbers,
+        int targetSum)
+    {
+        Dictionary<int, int> firstNumberAndIndiceMap = [];
+
+        for (int index = 0; index < numbers.Length; index++)
         {
-            Dictionary<int, int> indices = [];
+            var firstNumber = targetSum - numbers[index];
 
-            for (int index = 0; index < numbers.Length; index++)
+            if (firstNumberAndIndiceMap.TryGetValue(firstNumber, out int value))
             {
-                var secondNumber = targetSum - numbers[index];
-
-                if (indices.TryGetValue(secondNumber, out int value))
-                {
-                    return [index, value];
-                }
-                else
-                {
-                    // first number trở thành second number
-                    // của một số tại 1 index khác trong mảng
-                    indices.TryAdd(numbers[index], index);
-                }
+                return [value, index];
             }
-
-            return [-1];
+            else
+            {
+                // Current number trở thành first number của một số khác khi index tăng.
+                firstNumberAndIndiceMap.TryAdd(numbers[index], index);
+            }
         }
 
-        public void Run()
+        return [-1];
+    }
+
+    public static void Run()
+    {
+        Console.WriteLine("Sorted array, 2 firstNumberAndIndiceMap:");
+        foreach (var testCase in _testCases1)
         {
-            Console.WriteLine("Unsorted array, 2 indices:");
-            foreach (var _testCase in _testCases)
-            {
-                PrintUtility.PrintPrimitiveArray(
-                    FindTwoIndicesHasSumEqualTargetNumberInAnUnsortedArray(
-                        _testCase.ArrayOfElements!,
-                        _testCase.Integer
-                    )
-                );
-            }
+            PrintUtility.PrintPrimitiveArray(
+                FindTwoIndicesHasSumEqualTargetNumberUsingTwoIterationIndices(
+                    testCase.ArrayOfElements!,
+                    testCase.Element
+                )
+            );
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("Unsorted array, 2 firstNumberAndIndiceMap:");
+        foreach (var testCase in _testCases2)
+        {
+            PrintUtility.PrintPrimitiveArray(
+                FindTwoIndicesHasSumEqualTargetNumberUsingHashMap(
+                    testCase.ArrayOfElements!,
+                    testCase.Element
+                )
+            );
         }
     }
 }

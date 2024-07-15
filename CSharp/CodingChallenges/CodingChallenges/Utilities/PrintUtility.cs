@@ -1,37 +1,43 @@
 ﻿
-namespace CodingChallenges.Utilities
+namespace CodingChallenges.Utilities;
+
+internal static class PrintUtility
 {
-    internal static class PrintUtility
+    public static void PrintPrimitiveList<T>(IList<T> array)
     {
-        public static void PrintPrimitiveArray<T>(List<T> array)
+        if (array.Count == 0)
         {
-            Console.Write("[");
-            for (var index = 0; index < array.Count; index++)
-            {
-                if (index != array.Count - 1)
-                {
-                    Console.Write($"{array[index]}, ");
-                }
-                else
-                {
-                    Console.Write($"{array[index]}]");
-                }
-            }
+            Console.Write("[]");
+            return;
         }
 
-        public static void PrintPrimitiveArray<T>(T[] array)
+        Console.Write("[");
+
+        for (var index = 0; index < array.Count; index++)
         {
-            Console.Write("[");
-            for (var index = 0; index < array.Length; index++)
+            if (index != array.Count - 1)
             {
-                if (index != array.Length - 1)
-                {
-                    Console.Write($"{array[index]}, ");
-                }
-                else
-                {
-                    Console.Write($"{array[index]}]");
-                }
+                Console.Write($"{array[index]}, ");
+            }
+            else
+            {
+                Console.Write($"{array[index]}]");
+            }
+        }
+    }
+
+    public static void PrintPrimitiveArray<T>(T[] array)
+    {
+        Console.Write("[");
+        for (var index = 0; index < array.Length; index++)
+        {
+            if (index != array.Length - 1)
+            {
+                Console.Write($"{array[index]}, ");
+            }
+            else
+            {
+                Console.Write($"{array[index]}]");
             }
         }
     }
