@@ -7,8 +7,8 @@ internal class LargestUniqueNumber
     // If no integer occurs once, return -1.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [5, 7, 3, 9, 4, 9, 8, 3, 1] },
-        new() { ArrayOfElements = [9, 9, 8, 8] },
+        new() { ArrayOfElements1 = [5, 7, 3, 9, 4, 9, 8, 3, 1] },
+        new() { ArrayOfElements1 = [9, 9, 8, 8] },
     ];
 
     // [Tip] Use hash map
@@ -44,7 +44,7 @@ internal class LargestUniqueNumber
 
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(FindLargestUniqueNumberUsingHashMap(testCase.ArrayOfElements));
+            Console.WriteLine(FindLargestUniqueNumberUsingHashMap(testCase.ArrayOfElements1));
         }
     }
 }

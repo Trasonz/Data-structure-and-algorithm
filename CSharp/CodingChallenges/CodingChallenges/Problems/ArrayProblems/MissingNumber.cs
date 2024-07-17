@@ -11,9 +11,9 @@ internal static class MissingNumber
     // Explanation: 2 is the missing number in the range[0, 3].
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [3, 0, 1] },
-        new() { ArrayOfElements = [0, 1] },
-        new() { ArrayOfElements = [9, 6, 4, 2, 3, 5, 7, 0, 1] },
+        new() { ArrayOfElements1 = [3, 0, 1] },
+        new() { ArrayOfElements1 = [0, 1] },
+        new() { ArrayOfElements1 = [9, 6, 4, 2, 3, 5, 7, 0, 1] },
     ];
 
     /*
@@ -54,13 +54,13 @@ internal static class MissingNumber
         Console.WriteLine("Hash set:");
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(FindMissingNumberUsingHashSet(testCase.ArrayOfElements!));
+            Console.WriteLine(FindMissingNumberUsingHashSet(testCase.ArrayOfElements1!));
         }
 
         Console.WriteLine("Gauss' formula:");
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(FindMissingNumberUsingGaussFormula(testCase.ArrayOfElements!));
+            Console.WriteLine(FindMissingNumberUsingGaussFormula(testCase.ArrayOfElements1!));
         }
     }
 }

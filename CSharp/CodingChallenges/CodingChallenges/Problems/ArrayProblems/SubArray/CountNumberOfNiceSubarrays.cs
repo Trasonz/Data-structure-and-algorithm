@@ -8,9 +8,9 @@ internal class CountNumberOfNiceSubarrays
     // Return the number of nice sub-arrays.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [1,1,2,1,1], Element = 3 },
-        new() { ArrayOfElements = [2,4,6], Element = 1 },
-        new() { ArrayOfElements = [2,2,2,1,2,2,1,2,2,2], Element = 2 },
+        new() { ArrayOfElements1 = [1,1,2,1,1], Element = 3 },
+        new() { ArrayOfElements1 = [2,4,6], Element = 1 },
+        new() { ArrayOfElements1 = [2,2,2,1,2,2,1,2,2,2], Element = 2 },
     ];
 
     // [Tip] Use hash map
@@ -58,7 +58,7 @@ internal class CountNumberOfNiceSubarrays
 
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(CountNumberOfNiceSubarraysUsingPrefixSumAndHashMap(testCase.ArrayOfElements, testCase.Element));
+            Console.WriteLine(CountNumberOfNiceSubarraysUsingPrefixSumAndHashMap(testCase.ArrayOfElements1, testCase.Element));
         }
     }
 }

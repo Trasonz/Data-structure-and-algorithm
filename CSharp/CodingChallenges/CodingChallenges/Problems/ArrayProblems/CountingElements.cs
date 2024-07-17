@@ -9,10 +9,10 @@ internal static class CountingElements
     // If there are duplicates in arr, count them separately.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [1, 2, 3] },
-        new() { ArrayOfElements = [1, 1, 3, 3, 5, 5, 7, 7] },
-        new() { ArrayOfElements = [1, 1, 1, 2, 2, 3] },
-        new() { ArrayOfElements = [1, 1, 17, 2, 4, 13, 6, 5, 8, 9, 8] },
+        new() { ArrayOfElements1 = [1, 2, 3] },
+        new() { ArrayOfElements1 = [1, 1, 3, 3, 5, 5, 7, 7] },
+        new() { ArrayOfElements1 = [1, 1, 1, 2, 2, 3] },
+        new() { ArrayOfElements1 = [1, 1, 17, 2, 4, 13, 6, 5, 8, 9, 8] },
     ];
 
     // [Tip] Use hash set
@@ -39,7 +39,7 @@ internal static class CountingElements
         Console.WriteLine("Use hash set");
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(CountElementsUsingHashSet(testCase.ArrayOfElements!));
+            Console.WriteLine(CountElementsUsingHashSet(testCase.ArrayOfElements1!));
         }
     }
 }

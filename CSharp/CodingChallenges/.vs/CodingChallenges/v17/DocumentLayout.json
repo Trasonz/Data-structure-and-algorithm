@@ -3,108 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\extensions\\stringextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\substring\\_8_longestsubstringcontainsonly1byflippinga0s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\substring\\_8_longestsubstringcontainsonly1byflippinga0s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\substring\\_12_longestsubstringcontainsonly1byflippingk0s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\substring\\_12_longestsubstringcontainsonly1byflippingk0s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\validpalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\validpalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\subarraysproductlessthank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\subarraysproductlessthank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\checkifallcharactershaveequalnumberofoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\checkifallcharactershaveequalnumberofoccurrences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\squaringandsortingarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\squaringandsortingarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\checkifthesentenceispangram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\checkifthesentenceispangram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\longestsubstringwithatmostkdistinctcharacters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\longestsubstringwithatmostkdistinctcharacters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\issubsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\issubsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\twosum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\maximumnumberofballoons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\maximumnumberofballoons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\missingnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\missingnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\reversestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\reversestring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arraysproblem\\merging2sortedarraysintoasortedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arraysproblem\\merging2sortedarraysintoasortedarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\answeraquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\answeraquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\extensions\\arrayextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\extensions\\arrayextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\subarrayssumequalsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\subarrayssumequalsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\unsorted\\subarray\\_10_subarraywithlengthkhavingmaxsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\unsorted\\subarray\\_10_subarraywithlengthkhavingmaxsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\countnumberofnicesubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\countnumberofnicesubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arraysproblem\\intersectionofmultiplearrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arraysproblem\\intersectionofmultiplearrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\countingelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\countingelements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\maximumnumberofexpectedstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\maximumnumberofexpectedstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\largestuniquenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\largestuniquenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arraysproblem\\findplayerswithzerooronelosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arraysproblem\\findplayerswithzerooronelosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\validpalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\validpalindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\checkifthesentenceispangram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\checkifthesentenceispangram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\utilities\\calculationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\utilities\\calculationutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\prefixsum\\_16_minstartvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\prefixsum\\_16_minstartvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\prefixsum\\_17_kradiussubarrayaverages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\prefixsum\\_17_kradiussubarrayaverages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\subarrayssumequalsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\subarrayssumequalsk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\subarrayhasmaxsumwithlengthk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\subarrayhasmaxsumwithlengthk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\numberofwaystosplitthearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\numberofwaystosplitthearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\maximumaveragesubarrayi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\maximumaveragesubarrayi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\kradiussubarrayaverages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\kradiussubarrayaverages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\longestsubarrayhassumlessthanorequalk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\longestsubarrayhassumlessthanorequalk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\countnumberofnicesubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\countnumberofnicesubarrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arrayproblems\\subarray\\answeraquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arrayproblems\\subarray\\answeraquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,325 +82,241 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_8_LongestSubStringContainsOnly1ByFlippingA0s.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\SubString\\_8_LongestSubStringContainsOnly1ByFlippingA0s.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\SubString\\_8_LongestSubStringContainsOnly1ByFlippingA0s.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\SubString\\_8_LongestSubStringContainsOnly1ByFlippingA0s.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\SubString\\_8_LongestSubStringContainsOnly1ByFlippingA0s.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:58:13.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_12_LongestSubStringContainsOnly1ByFlippingK0s.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\SubString\\_12_LongestSubStringContainsOnly1ByFlippingK0s.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\SubString\\_12_LongestSubStringContainsOnly1ByFlippingK0s.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\SubString\\_12_LongestSubStringContainsOnly1ByFlippingK0s.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\SubString\\_12_LongestSubStringContainsOnly1ByFlippingK0s.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAmwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:57:52.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StringExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Extensions\\StringExtension.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Extensions\\StringExtension.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Extensions\\StringExtension.cs",
-              "RelativeToolTip": "CodingChallenges\\Extensions\\StringExtension.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAApwCUAAAAWAAAA",
+              "Title": "SubArraysProductLessThanK.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysProductLessThanK.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysProductLessThanK.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysProductLessThanK.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysProductLessThanK.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T09:35:40.542Z",
+              "WhenOpened": "2024-07-17T13:49:37.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Program.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
-              "RelativeToolTip": "CodingChallenges\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:43:26.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LongestSubstringWithAtMostKDistinctCharacters.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\LongestSubstringWithAtMostKDistinctCharacters.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\LongestSubstringWithAtMostKDistinctCharacters.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\LongestSubstringWithAtMostKDistinctCharacters.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\LongestSubstringWithAtMostKDistinctCharacters.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAqwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T10:43:40.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TwoSum.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\TwoSum.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\TwoSum.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\TwoSum.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\TwoSum.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAiwHkAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:01:48.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SquaringAndSortingArray.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SquaringAndSortingArray.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SquaringAndSortingArray.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SquaringAndSortingArray.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SquaringAndSortingArray.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA2wBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T08:52:52.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidPalindrome.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T03:54:40.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "CheckIfAllCharactersHaveEqualNumberOfOccurrences.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\CheckIfAllCharactersHaveEqualNumberOfOccurrences.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\CheckIfAllCharactersHaveEqualNumberOfOccurrences.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\CheckIfAllCharactersHaveEqualNumberOfOccurrences.cs",
               "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\CheckIfAllCharactersHaveEqualNumberOfOccurrences.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T08:04:33.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AnswerAQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:36:17.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MissingNumber.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\MissingNumber.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\MissingNumber.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\MissingNumber.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\MissingNumber.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAiwDMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:02:14.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Merging2SortedArraysIntoASortedArray.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\Merging2SortedArraysIntoASortedArray.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArraysProblem\\Merging2SortedArraysIntoASortedArray.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\Merging2SortedArraysIntoASortedArray.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArraysProblem\\Merging2SortedArraysIntoASortedArray.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:26:15.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ArrayExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Extensions\\ArrayExtension.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Extensions\\ArrayExtension.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Extensions\\ArrayExtension.cs",
-              "RelativeToolTip": "CodingChallenges\\Extensions\\ArrayExtension.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAD4vzQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:17:19.724Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IntersectionOfMultipleArrays.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\IntersectionOfMultipleArrays.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArraysProblem\\IntersectionOfMultipleArrays.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\IntersectionOfMultipleArrays.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArraysProblem\\IntersectionOfMultipleArrays.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAADgvxUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:26:47.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SubArraysSumEqualsK.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T00:36:53.686Z",
+              "WhenOpened": "2024-07-17T13:49:10.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_10_SubArrayWithLengthKHavingMaxSum.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\Unsorted\\SubArray\\_10_SubArrayWithLengthKHavingMaxSum.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\Unsorted\\SubArray\\_10_SubArrayWithLengthKHavingMaxSum.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\Unsorted\\SubArray\\_10_SubArrayWithLengthKHavingMaxSum.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\Unsorted\\SubArray\\_10_SubArrayWithLengthKHavingMaxSum.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAmwAIAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T00:11:08.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CountingElements.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\CountingElements.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\CountingElements.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\CountingElements.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\CountingElements.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:04:25.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CountNumberOfNiceSubarrays.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T12:44:35.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FindPlayersWithZeroOrOneLosses.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAABSwCUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T01:26:04.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TestCaseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "RelativeToolTip": "CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAtwA8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T02:28:13.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MaximumNumberOfExpectedString.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfExpectedString.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfExpectedString.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfExpectedString.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfExpectedString.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAqwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T03:01:51.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LargestUniqueNumber.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\LargestUniqueNumber.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\LargestUniqueNumber.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\LargestUniqueNumber.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\LargestUniqueNumber.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T08:54:07.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "CheckIfTheSentenceIsPangram.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\CheckIfTheSentenceIsPangram.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\CheckIfTheSentenceIsPangram.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\CheckIfTheSentenceIsPangram.cs",
               "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\CheckIfTheSentenceIsPangram.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwCQAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T12:01:45.75Z"
+              "WhenOpened": "2024-07-17T13:49:08.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 3,
+              "Title": "IsSubsequence.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:49:06.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaximumNumberOfBalloons.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfBalloons.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfBalloons.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfBalloons.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\MaximumNumberOfBalloons.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:49:03.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReverseString.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ReverseString.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\ReverseString.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ReverseString.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\ReverseString.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:49:01.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValidPalindrome.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\ValidPalindrome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:48:59.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalculationUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\CalculationUtility.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Utilities\\CalculationUtility.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\CalculationUtility.cs",
+              "RelativeToolTip": "CodingChallenges\\Utilities\\CalculationUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:48:56.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PrintUtility.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Utilities\\PrintUtility.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
               "RelativeToolTip": "CodingChallenges\\Utilities\\PrintUtility.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAUAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T03:55:53.967Z"
+              "WhenOpened": "2024-07-17T13:48:55.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_16_MinStartValue.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_16_MinStartValue.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_16_MinStartValue.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_16_MinStartValue.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_16_MinStartValue.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeToolTip": "CodingChallenges\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T09:36:24.433Z"
+              "WhenOpened": "2024-07-17T13:48:52.667Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "_17_KRadiusSubarrayAverages.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_17_KRadiusSubarrayAverages.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_17_KRadiusSubarrayAverages.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_17_KRadiusSubarrayAverages.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\PrefixSum\\_17_KRadiusSubarrayAverages.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADgvyYAAAAmAAAA",
+              "DocumentIndex": 10,
+              "Title": "SubArraysSumEqualsK.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArraysSumEqualsK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T03:44:36.166Z"
+              "WhenOpened": "2024-07-17T13:48:07.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubArrayHasMaxSumWithLengthK.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArrayHasMaxSumWithLengthK.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArrayHasMaxSumWithLengthK.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArrayHasMaxSumWithLengthK.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\SubArrayHasMaxSumWithLengthK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:48:05.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NumberOfWaysToSplitTheArray.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\NumberOfWaysToSplitTheArray.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\NumberOfWaysToSplitTheArray.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\NumberOfWaysToSplitTheArray.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\NumberOfWaysToSplitTheArray.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:48:04.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MaximumAverageSubarrayI.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\MaximumAverageSubarrayI.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\MaximumAverageSubarrayI.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\MaximumAverageSubarrayI.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\MaximumAverageSubarrayI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:48:03.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LongestSubArrayHasSumLessThanOrEqualK.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\LongestSubArrayHasSumLessThanOrEqualK.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\LongestSubArrayHasSumLessThanOrEqualK.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\LongestSubArrayHasSumLessThanOrEqualK.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\LongestSubArrayHasSumLessThanOrEqualK.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:47:59.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KRadiusSubarrayAverages.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\KRadiusSubarrayAverages.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\KRadiusSubarrayAverages.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\KRadiusSubarrayAverages.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\KRadiusSubarrayAverages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:47:59.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CountNumberOfNiceSubarrays.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\CountNumberOfNiceSubarrays.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:47:57.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AnswerAQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\ArrayProblems\\SubArray\\AnswerAQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T13:47:57.088Z",
+              "EditorCaption": ""
             }
           ]
         }

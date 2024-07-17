@@ -12,12 +12,12 @@ internal static class TwoSum
     [
         new()
         {
-            ArrayOfElements = [2, 7, 11, 15],
+            ArrayOfElements1 = [2, 7, 11, 15],
             Element = 9
         },
         new()
         {
-            ArrayOfElements = [1, 2, 3, 4, 6, 8],
+            ArrayOfElements1 = [1, 2, 3, 4, 6, 8],
             Element = 10
         }
     ];
@@ -29,27 +29,27 @@ internal static class TwoSum
     [
         new()
         {
-            ArrayOfElements = [2, 7, 11, 15],
+            ArrayOfElements1 = [2, 7, 11, 15],
             Element = 9
         },
         new()
         {
-            ArrayOfElements = [3, 6, 4, 8, 1, 2],
+            ArrayOfElements1 = [3, 6, 4, 8, 1, 2],
             Element = 10
         },
         new()
         {
-            ArrayOfElements = [3, 2, 4],
+            ArrayOfElements1 = [3, 2, 4],
             Element = 6
         },
         new()
         {
-            ArrayOfElements = [3, 3],
+            ArrayOfElements1 = [3, 3],
             Element = 6
         },
         new()
         {
-            ArrayOfElements = [1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1],
+            ArrayOfElements1 = [1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1],
             Element = 11
         }
     ];
@@ -150,7 +150,7 @@ internal static class TwoSum
         {
             PrintUtility.PrintPrimitiveArray(
                 FindTwoIndicesHasSumEqualTargetNumberUsingTwoIterationIndices(
-                    testCase.ArrayOfElements!,
+                    testCase.ArrayOfElements1!,
                     testCase.Element
                 )
             );
@@ -162,7 +162,7 @@ internal static class TwoSum
         {
             PrintUtility.PrintPrimitiveArray(
                 FindTwoIndicesHasSumEqualTargetNumberUsingHashMap(
-                    testCase.ArrayOfElements!,
+                    testCase.ArrayOfElements1!,
                     testCase.Element
                 )
             );

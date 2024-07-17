@@ -1,16 +1,16 @@
 ﻿using CodingChallenges.Dtos;
 
-namespace CodingChallenges.Problems.StringProblems;
+namespace CodingChallenges.Problems.StringProblems.SubString;
 
-internal class LongestSubstringWithAtMostKDistinctCharacters
+internal static class LongestSubstringWithAtMostKDistinctCharacters
 {
     // Given a string s and an integer k, return the length of the longest substring of s
     // that contains at most k distinct characters.
-    private readonly List<TestCaseDto<string>> _testCases =
+    private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "eceba", Integer = 2 },
-        new() { Element = "aa", Integer = 1 },
-        new() { Element = "acccbb", Integer = 2 },
+        new() { Element = "eceba", Integer1 = 2 },
+        new() { Element = "aa", Integer1 = 1 },
+        new() { Element = "acccbb", Integer1 = 2 },
     ];
 
     /*
@@ -54,7 +54,7 @@ internal class LongestSubstringWithAtMostKDistinctCharacters
         return maxLength;
     }
 
-    public void Run()
+    public static void Run()
     {
         Console.WriteLine("Use hash map");
         foreach (var testCase in _testCases)
@@ -62,7 +62,7 @@ internal class LongestSubstringWithAtMostKDistinctCharacters
             Console.WriteLine(
                 FindLongestSubstringWithAtMostKDistinctCharactersUsingTwoIterationIndicesAndHashMap(
                     testCase.Element!,
-                    testCase.Integer));
+                    testCase.Integer1));
         }
     }
 }

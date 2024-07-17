@@ -1,7 +1,7 @@
 ﻿using CodingChallenges.Dtos;
 
 namespace CodingChallenges.Problems.StringProblems;
-internal class MaximumNumberOfExpectedString // Balloon
+internal class MaximumNumberOfBalloons // Balloon
 {
     // Given an integer array nums, return the largest integer that only occurs once.
     // If no integer occurs once, return -1.

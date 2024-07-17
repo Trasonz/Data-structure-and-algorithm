@@ -26,17 +26,19 @@ public static class ValidPalindrome
         // t: O(n)
         while (leftIndex < rightIndex)
         {
-            while (leftIndex < rightIndex && !char.IsLetterOrDigit(_string[leftIndex]))
+            if (!char.IsLetterOrDigit(_string[leftIndex]))
             {
                 leftIndex++;
+                continue;
             }
 
-            while (leftIndex < rightIndex && !char.IsLetterOrDigit(_string[rightIndex]))
+            if (!char.IsLetterOrDigit(_string[rightIndex]))
             {
                 rightIndex--;
+                continue;
             }
 
-            if (!Char.ToLower(_string[leftIndex]).Equals(Char.ToLower(_string[rightIndex])))
+            if (!char.ToLower(_string[leftIndex]).Equals(char.ToLower(_string[rightIndex])))
             {
                 return false;
             }

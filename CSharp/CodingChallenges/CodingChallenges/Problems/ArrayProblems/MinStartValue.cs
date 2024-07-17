@@ -1,6 +1,8 @@
-﻿namespace CodingChallenges.Problems.ArrayProblems.PrefixSum;
+﻿using CodingChallenges.Dtos;
 
-internal class _16_MinStartValue
+namespace CodingChallenges.Problems.ArrayProblems;
+
+internal static class MinStartValue
 {
     // Given an array of integers nums, you start with an initial positive value startValue.
     // In each iteration, you calculate the step by step sum of startValue
@@ -14,31 +16,27 @@ internal class _16_MinStartValue
     // (4 -3 ) = 1
     // (1 +4 ) = 5
     // (5 +2 ) = 7
-    private readonly List<List<int>> _testCases =
+    private static readonly List<TestCaseDto<int>> _testCases =
     [
-        [-3, 2, -3, 4, 2],  // 5
-        [1, 2],             // 1
-        [1, -2, -2]         // 4
+        new() { ArrayOfElements1 = [-3, 2, -3, 4, 2] },
+        new() { ArrayOfElements1 = [1, 2]},
+        new() { ArrayOfElements1 = [1, -2, -2]},
+        new() { ArrayOfElements1 = [-3,6,2,5,8,6]},
     ];
 
-    /*
-     * Time complexity: O(n), with n is numbers.Count. 
-     * Space complexity: O(1). 
-     */
-    public static int CalculateMinStartValue(List<int> numbers)
+    public static int CalculateMinStartValueUsingPrefixSum(int[] numbers)
     {
-        List<int> prefixSum = [numbers[0]];
+        int prefixSum = 0;
         int minPrefixSum = 1;
 
-        // Build the prefix sum
-        for (int index = 1; index < numbers.Count; index++)
+        // t: O(n)
+        for (int index = 0; index < numbers.Length; index++)
         {
-            var newPrefixSum = prefixSum[index - 1] + numbers[index];
-            prefixSum.Add(newPrefixSum);
+            prefixSum += numbers[index];
 
-            if (newPrefixSum < minPrefixSum)
+            if (prefixSum < minPrefixSum)
             {
-                minPrefixSum = newPrefixSum;
+                minPrefixSum = prefixSum;
             }
         }
 
@@ -47,12 +45,12 @@ internal class _16_MinStartValue
             : 1 - minPrefixSum;
     }
 
-    public void Run()
+    public static void Run()
     {
         foreach (var testCase in _testCases)
         {
             Console.WriteLine($"The minimum positive value of startValue such that the step by step sum " +
-                $"is never less than 1 is {CalculateMinStartValue(testCase)}");
+                $"is never less than 1 is {CalculateMinStartValueUsingPrefixSum(testCase.ArrayOfElements1)}");
         }
     }
 }

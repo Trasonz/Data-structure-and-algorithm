@@ -3,7 +3,8 @@ namespace CodingChallenges.Dtos;
 
 public class TestCaseDto<T>
 {
-    public T[] ArrayOfElements = [];
+    public T[] ArrayOfElements1 = [];
+    public T[] ArrayOfElements2 = [];
     public T[][] ArrayOfArraysOfElements = [];
     public T[] ExpectedArrayOfElements = [];
 
@@ -13,7 +14,8 @@ public class TestCaseDto<T>
 
     public T? Element;
 
-    public int Integer;
+    public int Integer1;
+    public int Integer2;
     public int ExpectedInteger;
     public string String = "";
     public string ExpectedString = "";

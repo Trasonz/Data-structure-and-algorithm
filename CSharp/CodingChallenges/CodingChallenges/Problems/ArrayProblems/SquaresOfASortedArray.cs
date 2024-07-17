@@ -3,15 +3,15 @@ using CodingChallenges.Utilities;
 
 namespace CodingChallenges.Problems.ArrayProblems;
 
-internal static class SquaringAndSortingArray
+internal static class SquaresOfASortedArray
 {
     // Given a sorted integer array,
     // return an array of the squares of each number, and it is sorted.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [-4, -1, 0, 3, 10] },
-        new() { ArrayOfElements = [-7, -3, 2, 3, 11] },
-        new() { ArrayOfElements = [-7, -3, 2, 3, 6, 11] },
+        new() { ArrayOfElements1 = [-4, -1, 0, 3, 10] },
+        new() { ArrayOfElements1 = [-7, -3, 2, 3, 11] },
+        new() { ArrayOfElements1 = [-7, -3, 2, 3, 6, 11] },
     ];
 
     public static int[] SquareAndSortUsingTwoIterationIndices(int[] numbers)
@@ -48,10 +48,10 @@ internal static class SquaringAndSortingArray
         {
             Console.Write($"The square of array ");
 
-            PrintUtility.PrintPrimitiveList(testCase.ArrayOfElements);
+            PrintUtility.PrintPrimitiveList(testCase.ArrayOfElements1);
 
             Console.Write($" is ");
-            var result = SquareAndSortUsingTwoIterationIndices(testCase.ArrayOfElements);
+            var result = SquareAndSortUsingTwoIterationIndices(testCase.ArrayOfElements1);
 
             PrintUtility.PrintPrimitiveArray(result);
 

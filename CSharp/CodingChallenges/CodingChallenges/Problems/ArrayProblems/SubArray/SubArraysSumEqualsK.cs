@@ -7,11 +7,11 @@ internal class SubArraysSumEqualsK
     // A subarray is a contiguous non-empty sequence of elements within an array.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements = [1,-1,3,-2,1], Element = 1 },
-        new() { ArrayOfElements = [1,3,-4,7,2,-2,2,-4,4], Element = 3 },
-        new() { ArrayOfElements = [1,-1,0], Element = 0 },
-        new() { ArrayOfElements = [1,1,1], Element = 2 },
-        new() { ArrayOfElements = [1,2,3], Element = 3 },
+        new() { ArrayOfElements1 = [1,-1,3,-2,1], Element = 1 },
+        new() { ArrayOfElements1 = [1,3,-4,7,2,-2,2,-4,4], Element = 3 },
+        new() { ArrayOfElements1 = [1,-1,0], Element = 0 },
+        new() { ArrayOfElements1 = [1,1,1], Element = 2 },
+        new() { ArrayOfElements1 = [1,2,3], Element = 3 },
     ];
 
     // [Tip] Use hash map
@@ -60,7 +60,7 @@ internal class SubArraysSumEqualsK
 
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(FindSubArraysSumEqualsKUsingPrefixSumAndHashMap(testCase.ArrayOfElements, testCase.Element));
+            Console.WriteLine(FindSubArraysSumEqualsKUsingPrefixSumAndHashMap(testCase.ArrayOfElements1, testCase.Element));
         }
     }
 }
