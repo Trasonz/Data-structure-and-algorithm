@@ -11,9 +11,9 @@ internal static class MaxConsecutiveOnesIII
     // For example, given s = "11100011110" and k = 2, the answer is 6 (11100[1]1111[1]).
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "11100011110", Integer1 = 2 },     // -> 11100[1]1111[1]      : 6
-        new() { Element = "01001011", Integer1 = 2 },        // -> 010[1]1[1]11         : 5
-        new() { Element = "110110110110", Integer1 = 4 },    // -> 11[1]11[1]11[1]11[1] : 12
+        new() { String1 = "11100011110", Integer1 = 2 },     // -> 11100[1]1111[1]      : 6
+        new() { String1 = "01001011", Integer1 = 2 },        // -> 010[1]1[1]11         : 5
+        new() { String1 = "110110110110", Integer1 = 4 },    // -> 11[1]11[1]11[1]11[1] : 12
     ];
 
     public static int FindLengthOfLongestSubStringContainsOnly1ByFlippingK0s(
@@ -56,7 +56,7 @@ internal static class MaxConsecutiveOnesIII
         foreach (var testCase in _testCases)
         {
             var result = FindLengthOfLongestSubStringContainsOnly1ByFlippingK0s(
-                testCase.Element!,
+                testCase.String1!,
                 testCase.Integer1);
             Console.WriteLine(result);
         }

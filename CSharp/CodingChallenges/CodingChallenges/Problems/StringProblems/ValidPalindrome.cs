@@ -7,10 +7,10 @@ public static class ValidPalindrome
     // Given a string s, return true if it is a palindrome, false otherwise.
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "A man, a plan, a canal: Panama" },
-        new() { Element = "hello" },
-        new() { Element = "racecar" },
-        new() { Element = "reer" },
+        new() { String1 = "A man, a plan, a canal: Panama" },
+        new() { String1 = "hello" },
+        new() { String1 = "racecar" },
+        new() { String1 = "reer" },
     ];
 
     public static bool IsAPalindrome(string _string)
@@ -55,7 +55,7 @@ public static class ValidPalindrome
         foreach (var testCase in _testCases)
         {
             Console.Write($"Is {testCase} a palindrome? - ");
-            Console.WriteLine(IsAPalindrome(testCase.Element!));
+            Console.WriteLine(IsAPalindrome(testCase.String1!));
         }
     }
 }

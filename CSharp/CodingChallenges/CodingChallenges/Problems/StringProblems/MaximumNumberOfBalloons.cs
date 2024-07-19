@@ -7,11 +7,11 @@ internal class MaximumNumberOfBalloons // Balloon
     // If no integer occurs once, return -1.
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "b", String = "bballoon" },
-        new() { Element = "nlaebolko", String = "balloon" },
-        new() { Element = "loonbalxballpoon", String = "balloon" },
-        new() { Element = "leetcode", String = "balloon" },
-        new() { Element = "thinhxghjtliknphqhhtn", String = "thinh", ExpectedInteger = 2 },
+        new() { String1 = "b", String2 = "bballoon" },
+        new() { String1 = "nlaebolko", String2 = "balloon" },
+        new() { String1 = "loonbalxballpoon", String2 = "balloon" },
+        new() { String1 = "leetcode", String2 = "balloon" },
+        new() { String1 = "thinhxghjtliknphqhhtn", String2 = "thinh", ExpectedInteger = 2 },
     ];
 
     // [Tip] Use hash map
@@ -79,7 +79,7 @@ internal class MaximumNumberOfBalloons // Balloon
 
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(FindMaximumNumberOfExpectedStringUsingHashMap(testCase.Element!, testCase.String));
+            Console.WriteLine(FindMaximumNumberOfExpectedStringUsingHashMap(testCase.String1!, testCase.String2));
         }
     }
 }

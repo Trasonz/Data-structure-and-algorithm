@@ -9,8 +9,8 @@ internal class CheckIfAllCharactersHaveEqualNumberOfOccurrences
     // have the same number of occurrences, or false otherwise.
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "abcba" },
-        new() { Element = "abccba" },
+        new() { String1 = "abcba" },
+        new() { String1 = "abccba" },
     ];
 
     // [Tip] Use hash map
@@ -47,7 +47,7 @@ internal class CheckIfAllCharactersHaveEqualNumberOfOccurrences
         foreach (var testCase in _testCases)
         {
             Console.WriteLine(
-                CheckIfAllCharactersHaveEqualNumberOfOccurrencesUsingHashMap(testCase.Element!));
+                CheckIfAllCharactersHaveEqualNumberOfOccurrencesUsingHashMap(testCase.String1!));
         }
     }
 }

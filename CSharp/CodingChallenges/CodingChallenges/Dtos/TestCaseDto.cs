@@ -12,11 +12,10 @@ public class TestCaseDto<T>
     public List<List<T>> ListOfListsOfElements = [];
     public List<T> ExpectedListOfElements = [];
 
-    public T? Element;
-
     public int Integer1;
     public int Integer2;
     public int ExpectedInteger;
-    public string String = "";
+    public string String1 = "";
+    public string String2 = "";
     public string ExpectedString = "";
 }

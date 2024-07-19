@@ -4,7 +4,7 @@ using CodingChallenges.Problems.ArrayProblems.SubArray;
 Console.WriteLine("Hello, welcome to coding challenges!");
 Console.WriteLine();
 
-// String
+// String1
 //ValidPalindrome.Run();
 //IsSubsequence.Run();
 //ReverseString.Run();
@@ -19,7 +19,7 @@ Console.WriteLine();
 //TwoSum.Run();
 //SquaresOfASortedArray.Run();
 //LongestSubArrayHasSumLessThanOrEqualK.Run();
-SubArraysProductLessThanK.Run();
+//SubArraysProductLessThanK.Run();
 //SubArrayHasMaxSumWithLengthK.Run();
 //MaximumAverageSubarrayI.Run();
 //AnswerAQuery.Run();
@@ -31,6 +31,7 @@ SubArraysProductLessThanK.Run();
 //SubArraysSumEqualsK.Run();
 //CountNumberOfNiceSubarrays.Run();
 //LargestUniqueNumber.Run();
+ContiguousArray.Run();
 Console.WriteLine();
 
 // Arrays

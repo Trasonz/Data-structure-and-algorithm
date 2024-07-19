@@ -9,10 +9,10 @@ internal static class IsSubsequence
     // or false otherwise.
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "abcde", String = "bd" },
-        new() { Element = "", String = "" },
-        new() { Element = "thinh", String = "th n" },
-        new() { Element = "th", String = "thinh" },
+        new() { String1 = "abcde", String2 = "bd" },
+        new() { String1 = "", String2 = "" },
+        new() { String1 = "thinh", String2 = "th n" },
+        new() { String1 = "th", String2 = "thinh" },
     ];
 
     public static bool IsASubsequenceOf(
@@ -50,7 +50,7 @@ internal static class IsSubsequence
     {
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(IsASubsequenceOf(testCase.String, testCase.Element!));
+            Console.WriteLine(IsASubsequenceOf(testCase.String2, testCase.String1!));
         }
     }
 }

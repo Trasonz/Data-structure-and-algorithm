@@ -8,9 +8,9 @@ internal static class LongestSubstringWithAtMostKDistinctCharacters
     // that contains at most k distinct characters.
     private static readonly List<TestCaseDto<string>> _testCases =
     [
-        new() { Element = "eceba", Integer1 = 2 },
-        new() { Element = "aa", Integer1 = 1 },
-        new() { Element = "acccbb", Integer1 = 2 },
+        new() { String1 = "eceba", Integer1 = 2 },
+        new() { String1 = "aa", Integer1 = 1 },
+        new() { String1 = "acccbb", Integer1 = 2 },
     ];
 
     /*
@@ -61,7 +61,7 @@ internal static class LongestSubstringWithAtMostKDistinctCharacters
         {
             Console.WriteLine(
                 FindLongestSubstringWithAtMostKDistinctCharactersUsingTwoIterationIndicesAndHashMap(
-                    testCase.Element!,
+                    testCase.String1!,
                     testCase.Integer1));
         }
     }
