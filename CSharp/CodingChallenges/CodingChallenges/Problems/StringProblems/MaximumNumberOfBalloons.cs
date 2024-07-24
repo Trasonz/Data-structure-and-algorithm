@@ -14,9 +14,6 @@ internal class MaximumNumberOfBalloons // Balloon
         new() { String1 = "thinhxghjtliknphqhhtn", String2 = "thinh", ExpectedInteger = 2 },
     ];
 
-    // [Tip] Use hash map
-    // Time complexity: O(n)
-    // Space complexity: O(m + t)
     public static int FindMaximumNumberOfExpectedStringUsingHashMap(string text, string expectedString)
     {
         Dictionary<char, int> expectedStringCharacterFractionMap = [];  // m
