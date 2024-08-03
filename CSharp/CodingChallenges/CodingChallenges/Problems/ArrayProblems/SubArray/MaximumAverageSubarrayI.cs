@@ -6,7 +6,7 @@ internal static class MaximumAverageSubarrayI
 {
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [1,12,-5,-6,50,3], Integer1 = 4 },
+        new() { Array1 = [1,12,-5,-6,50,3], Integer1 = 4 },
     ];
 
     public static double FindSubArrayWithLengthKHavingMaxAverage(
@@ -39,7 +39,7 @@ internal static class MaximumAverageSubarrayI
     {
         foreach (var testCase in _testCases)
         {
-            var result = FindSubArrayWithLengthKHavingMaxAverage(testCase.ArrayOfElements1, testCase.Integer1);
+            var result = FindSubArrayWithLengthKHavingMaxAverage(testCase.Array1, testCase.Integer1);
             Console.WriteLine(result);
         }
     }

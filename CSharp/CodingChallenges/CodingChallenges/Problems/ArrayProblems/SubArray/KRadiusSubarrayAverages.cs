@@ -15,7 +15,7 @@ internal static class KRadiusSubarrayAverages
     // The integer division truncates toward zero, which means losing its fractional part.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [7, 4, 3, 9, 1, 8, 5, 2, 6], Integer1 = 3 },
+        new() { Array1 = [7, 4, 3, 9, 1, 8, 5, 2, 6], Integer1 = 3 },
     ];
 
     /*
@@ -68,7 +68,7 @@ internal static class KRadiusSubarrayAverages
         foreach (var testCase in _testCases)
         {
             var result = CalculateKRadiusSubArrayAverageUsingPrefixSum(
-                testCase.ArrayOfElements1, testCase.Integer1);
+                testCase.Array1, testCase.Integer1);
             Console.Write($"The k-radius average is ");
             PrintUtility.PrintPrimitiveArray(result);
         }

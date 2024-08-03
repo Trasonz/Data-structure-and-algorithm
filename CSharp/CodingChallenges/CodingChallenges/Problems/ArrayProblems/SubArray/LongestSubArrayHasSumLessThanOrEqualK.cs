@@ -8,7 +8,7 @@ internal static class LongestSubArrayHasSumLessThanOrEqualK
     // find the length of the longest subarray whose sum is less than or equal to k.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [3, 2, 1, 3, 1, 1], Integer1 = 5 },
+        new() { Array1 = [3, 2, 1, 3, 1, 1], Integer1 = 5 },
     ];
 
     public static int FindLongestSubArrayHasSumLessThanOrEqualKUsingTwoIterationIndices(
@@ -42,7 +42,7 @@ internal static class LongestSubArrayHasSumLessThanOrEqualK
         foreach (var testCase in _testCases)
         {
             var result = FindLongestSubArrayHasSumLessThanOrEqualKUsingTwoIterationIndices(
-                testCase.ArrayOfElements1,
+                testCase.Array1,
                 testCase.Integer1);
 
             Console.WriteLine(result);

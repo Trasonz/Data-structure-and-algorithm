@@ -21,9 +21,9 @@ internal class FindPlayersWithZeroOrOneLosses
     */
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfArraysOfElements = [[3,4],[2,4],[1,3],[2,3],[5,6]] },
-        new() { ArrayOfArraysOfElements = [[1,3],[2,3],[3,6],[5,6],[5,7],[4,5],[4,8],[4,9],[10,4],[10,9]] },
-        new() { ArrayOfArraysOfElements = [[2,3],[1,3],[5,4],[6,4]] },
+        new() { ArrayOfArrays1 = [[3,4],[2,4],[1,3],[2,3],[5,6]] },
+        new() { ArrayOfArrays1 = [[1,3],[2,3],[3,6],[5,6],[5,7],[4,5],[4,8],[4,9],[10,4],[10,9]] },
+        new() { ArrayOfArrays1 = [[2,3],[1,3],[5,4],[6,4]] },
     ];
 
     // [Tip] Use hash map
@@ -74,7 +74,7 @@ internal class FindPlayersWithZeroOrOneLosses
 
         foreach (var testCase in _testCases)
         {
-            var result = FindPlayersWithZeroOrOneLossesUsingHashMap(testCase.ArrayOfArraysOfElements);
+            var result = FindPlayersWithZeroOrOneLossesUsingHashMap(testCase.ArrayOfArrays1);
             PrintUtility.PrintPrimitiveList(result[0]);
             Console.Write(", ");
             PrintUtility.PrintPrimitiveList(result[1]);

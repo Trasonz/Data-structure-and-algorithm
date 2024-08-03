@@ -8,8 +8,8 @@ internal static class SubArrayHasMaxSumWithLengthK
     // find the sum of the subarray with the largest sum whose length is k.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [3, -1, 4, 12, -8, 5, 6], Integer1 = 4 },
-        new() { ArrayOfElements1 = [1, 6, 4, 10, 8, 4, 2], Integer1 = 3 },
+        new() { Array1 = [3, -1, 4, 12, -8, 5, 6], Integer1 = 4 },
+        new() { Array1 = [1, 6, 4, 10, 8, 4, 2], Integer1 = 3 },
     ];
 
     // [Tip] Use fixed sliding window.
@@ -42,7 +42,7 @@ internal static class SubArrayHasMaxSumWithLengthK
     {
         foreach (var testCase in _testCases)
         {
-            var result = FindSubArrayWithLengthKHavingMaxSum(testCase.ArrayOfElements1, testCase.Integer1);
+            var result = FindSubArrayWithLengthKHavingMaxSum(testCase.Array1, testCase.Integer1);
             Console.WriteLine(result);
         }
     }

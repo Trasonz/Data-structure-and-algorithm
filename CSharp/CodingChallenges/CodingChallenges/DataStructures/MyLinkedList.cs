@@ -7,10 +7,11 @@ using System.Xml;
 using System.Xml.Linq;
 
 namespace CodingChallenges.DataStructures;
-internal class MyLinkedList<T>
+
+public class MyLinkedList<T>
 {
-    private MyNode<T> _head = null; 
-    private MyNode<T> _tail = null;
+    public MyNode<T>? Head;
+    public MyNode<T>? Tail;
 
     public MyLinkedList(List<T> types)
     {
@@ -20,17 +21,19 @@ internal class MyLinkedList<T>
         }
     }
 
+
     public void AddAtTail(T value)
     {
         MyNode<T> newNode = new(value);
-        if (_head == null)
+
+        if (Head == null)
         {
-            _head = _tail = newNode;
+            Head = Tail = newNode;
         }
         else
         {
-            _tail.Next = newNode;
-            _tail = newNode;
+            Tail!.Next = newNode;
+            Tail = newNode;
         }
     }
 }

@@ -18,10 +18,10 @@ internal static class MinStartValue
     // (5 +2 ) = 7
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [-3, 2, -3, 4, 2] },
-        new() { ArrayOfElements1 = [1, 2]},
-        new() { ArrayOfElements1 = [1, -2, -2]},
-        new() { ArrayOfElements1 = [-3,6,2,5,8,6]},
+        new() { Array1 = [-3, 2, -3, 4, 2] },
+        new() { Array1 = [1, 2]},
+        new() { Array1 = [1, -2, -2]},
+        new() { Array1 = [-3,6,2,5,8,6]},
     ];
 
     public static int CalculateMinStartValueUsingPrefixSum(int[] numbers)
@@ -50,7 +50,7 @@ internal static class MinStartValue
         foreach (var testCase in _testCases)
         {
             Console.WriteLine($"The minimum positive value of startValue such that the step by step sum " +
-                $"is never less than 1 is {CalculateMinStartValueUsingPrefixSum(testCase.ArrayOfElements1)}");
+                $"is never less than 1 is {CalculateMinStartValueUsingPrefixSum(testCase.Array1)}");
         }
     }
 }

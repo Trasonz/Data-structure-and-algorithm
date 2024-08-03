@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stackproblems\\simplifypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stackproblems\\simplifypath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stackproblems\\makethestringgreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stackproblems\\makethestringgreat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stackproblems\\removealladjacentduplicatesinstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stackproblems\\removealladjacentduplicatesinstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stackproblems\\validparentheses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stackproblems\\validparentheses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stackproblems\\backspacestringcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stackproblems\\backspacestringcompare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\stringproblems\\issubsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\stringproblems\\issubsequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\linkedlistproblems\\middleofthelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\linkedlistproblems\\middleofthelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\datastructures\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\datastructures\\mylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,32 +67,151 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MakeTheStringGreat.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\MakeTheStringGreat.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StackProblems\\MakeTheStringGreat.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\MakeTheStringGreat.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StackProblems\\MakeTheStringGreat.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIAzwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:10:49.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SimplifyPath.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\SimplifyPath.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StackProblems\\SimplifyPath.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\SimplifyPath.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StackProblems\\SimplifyPath.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:26:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BackspaceStringCompare.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\BackspaceStringCompare.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StackProblems\\BackspaceStringCompare.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\BackspaceStringCompare.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StackProblems\\BackspaceStringCompare.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:16:57.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemoveAllAdjacentDuplicatesInString.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\RemoveAllAdjacentDuplicatesInString.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StackProblems\\RemoveAllAdjacentDuplicatesInString.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\RemoveAllAdjacentDuplicatesInString.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StackProblems\\RemoveAllAdjacentDuplicatesInString.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA3wAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T10:00:05.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidParentheses.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\ValidParentheses.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StackProblems\\ValidParentheses.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StackProblems\\ValidParentheses.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StackProblems\\ValidParentheses.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T07:40:24.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeToolTip": "CodingChallenges\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwDQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:13:49.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrintUtility.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Utilities\\PrintUtility.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
+              "RelativeToolTip": "CodingChallenges\\Utilities\\PrintUtility.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T05:10:39.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IsSubsequence.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\IsSubsequence.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA2wAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:14:23.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MiddleOfTheLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwCYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:14:10.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestCaseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Dtos\\TestCaseDto.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
+              "RelativeToolTip": "CodingChallenges\\Dtos\\TestCaseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T04:11:08.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "MyNode.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\DataStructures\\MyNode.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\DataStructures\\MyNode.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\DataStructures\\MyNode.cs",
               "RelativeToolTip": "CodingChallenges\\DataStructures\\MyNode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T03:28:11.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T03:28:11.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "MyLinkedList.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\DataStructures\\MyLinkedList.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\DataStructures\\MyLinkedList.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\DataStructures\\MyLinkedList.cs",
               "RelativeToolTip": "CodingChallenges\\DataStructures\\MyLinkedList.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAywBIAAAAVAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA2wBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T03:27:47.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T03:27:47.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "LongestSubstringWithoutRepeatingCharacters.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\StringProblems\\SubString\\LongestSubstringWithoutRepeatingCharacters.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\StringProblems\\SubString\\LongestSubstringWithoutRepeatingCharacters.cs",
@@ -60,8 +219,7 @@
               "RelativeToolTip": "CodingChallenges\\Problems\\StringProblems\\SubString\\LongestSubstringWithoutRepeatingCharacters.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T01:42:34.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T01:42:34.053Z"
             }
           ]
         }

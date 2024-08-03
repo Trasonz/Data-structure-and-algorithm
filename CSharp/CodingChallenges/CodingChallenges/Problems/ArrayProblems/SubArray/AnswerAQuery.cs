@@ -15,8 +15,8 @@ internal class AnswerAQuery
     // For each query, the subarray sums are[12, 14, 12].
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [1, 6, 3, 2, 7, 2], ArrayOfArraysOfElements = [[0, 3], [2, 5], [2, 4]], Integer1 = 13 },
-        new() { ArrayOfElements1 = [1, 1, 1, 1, 1, 1], ArrayOfArraysOfElements = [[0, 3], [0, 4], [1, 5]], Integer1 = 5 }
+        new() { Array1 = [1, 6, 3, 2, 7, 2], ArrayOfArrays1 = [[0, 3], [2, 5], [2, 4]], Integer1 = 13 },
+        new() { Array1 = [1, 1, 1, 1, 1, 1], ArrayOfArrays1 = [[0, 3], [0, 4], [1, 5]], Integer1 = 5 }
     ];
 
     // Time complexity: O(n), with n is numbers.Count. 
@@ -50,8 +50,8 @@ internal class AnswerAQuery
             Console.Write($"Result: ");
 
             PrintUtility.PrintPrimitiveList(AnswerQueries(
-                testCase.ArrayOfElements1,
-                testCase.ArrayOfArraysOfElements,
+                testCase.Array1,
+                testCase.ArrayOfArrays1,
                 testCase.Integer1));
 
             Console.WriteLine();

@@ -11,10 +11,10 @@ internal class IntersectionOfMultipleArrays
     // return [3, 4]. 3 and 4 are the only numbers that are in all arrays.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfArraysOfElements = [[44, 21, 48]] },
-        new() { ArrayOfArraysOfElements = [[3, 1, 2, 4, 5], [1, 2, 3, 4], [3, 4, 5, 6]] },
-        new() { ArrayOfArraysOfElements = [[1, 2, 3], [4, 5, 6]] },
-        new() { ArrayOfArraysOfElements = [[7, 34, 45, 10, 12, 27, 13],[27, 21, 45, 10, 12, 13]] },
+        new() { ArrayOfArrays1 = [[44, 21, 48]] },
+        new() { ArrayOfArrays1 = [[3, 1, 2, 4, 5], [1, 2, 3, 4], [3, 4, 5, 6]] },
+        new() { ArrayOfArrays1 = [[1, 2, 3], [4, 5, 6]] },
+        new() { ArrayOfArrays1 = [[7, 34, 45, 10, 12, 27, 13],[27, 21, 45, 10, 12, 13]] },
     ];
 
     /*
@@ -62,7 +62,7 @@ internal class IntersectionOfMultipleArrays
         foreach (var testCase in _testCases)
         {
             PrintUtility.PrintPrimitiveList(
-                FindIntersectionOfMultipleArraysUsingHashMap(testCase.ArrayOfArraysOfElements));
+                FindIntersectionOfMultipleArraysUsingHashMap(testCase.ArrayOfArrays1));
         }
 
         Console.WriteLine();

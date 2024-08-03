@@ -7,8 +7,8 @@ using System.Xml;
 using System.Xml.Linq;
 
 namespace CodingChallenges.DataStructures;
-internal class MyNode<T>(T value, MyNode<T> next = null)
+public class MyNode<T>(T value)
 {
     public T Value = value;
-    public MyNode<T> Next = next;
+    public MyNode<T> Next;
 }

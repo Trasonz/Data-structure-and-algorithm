@@ -1,4 +1,6 @@
 ﻿
+using CodingChallenges.DataStructures;
+
 namespace CodingChallenges.Utilities;
 
 internal static class PrintUtility
@@ -24,6 +26,25 @@ internal static class PrintUtility
                 Console.Write($"{array[index]}]");
             }
         }
+    }
+
+    public static void PrintLinkedList<T>(MyNode<T> node)
+    {
+        while (node != null)
+        {
+            Console.Write(node.Value);
+            node = node.Next;
+
+            if (node != null)
+            {
+                Console.Write(" -> ");
+            }
+        }
+    }
+
+    public static void PrintNode<T>(MyNode<T> node)
+    {
+        Console.Write(node.Value);
     }
 
     public static void PrintPrimitiveArray<T>(T[] array)

@@ -9,9 +9,9 @@ internal static class NumberOfWaysToSplitTheArray
     // The second section should have at least one number.
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [1, 2, 3, 4, 5] },
-        new() { ArrayOfElements1 = [10, 4, -8, 7] },
-        new() { ArrayOfElements1 = [1, 1, 2] },
+        new() { Array1 = [1, 2, 3, 4, 5] },
+        new() { Array1 = [10, 4, -8, 7] },
+        new() { Array1 = [1, 1, 2] },
     ];
 
     public static int CountNumberOfWaysToSplitTheArrayUsingTwoIterationIndicesAndPrefixSum(int[] numbers)
@@ -58,7 +58,7 @@ internal static class NumberOfWaysToSplitTheArray
     {
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(CountNumberOfWaysToSplitTheArrayUsingTwoIterationIndicesAndPrefixSum(testCase.ArrayOfElements1));
+            Console.WriteLine(CountNumberOfWaysToSplitTheArrayUsingTwoIterationIndicesAndPrefixSum(testCase.Array1));
         }
     }
 }

@@ -12,8 +12,8 @@ internal static class SubArraysProductLessThanK
     // [10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [10, 5, 2, 6], Integer1 = 100 },
-        new() { ArrayOfElements1 = [2, 4, 6, 8, 10, 1, 80, 4, 20], Integer1 = 80 },
+        new() { Array1 = [10, 5, 2, 6], Integer1 = 100 },
+        new() { Array1 = [2, 4, 6, 8, 10, 1, 80, 4, 20], Integer1 = 80 },
     ];
 
     public static int FindNumberOfSubArraysHasProductLessThanKUsingTwoIterationIndices(
@@ -50,7 +50,7 @@ internal static class SubArraysProductLessThanK
         foreach (var testCase in _testCases)
         {
             var result = FindNumberOfSubArraysHasProductLessThanKUsingTwoIterationIndices(
-                testCase.ArrayOfElements1,
+                testCase.Array1,
                 testCase.Integer1);
             Console.WriteLine($"The number of sub-arrays with products LESS than k is {result}");
         }

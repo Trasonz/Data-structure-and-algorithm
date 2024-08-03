@@ -9,18 +9,18 @@ internal class MergeTwoSortedArrayIntoANewSortedArray
     [
         new()
         {
-            ArrayOfElements1 = [1, 2, 4, 6, 9, 10],
-            ArrayOfElements2 = [3, 5, 8],
+            Array1 = [1, 2, 4, 6, 9, 10],
+            Array2 = [3, 5, 8],
         },
         new()
         {
-            ArrayOfElements1 = [1, 3, 4, 6, 9, 11, 15],
-            ArrayOfElements2 = [2, 5, 10, 12, 13],
+            Array1 = [1, 3, 4, 6, 9, 11, 15],
+            Array2 = [2, 5, 10, 12, 13],
         },
         new()
         {
-            ArrayOfElements1 = [1, 2, 4, 6, 9, 10],
-            ArrayOfElements2 = [1, 2, 2, 2, 2, 2, 2, 7],
+            Array1 = [1, 2, 4, 6, 9, 10],
+            Array2 = [1, 2, 2, 2, 2, 2, 2, 7],
         },
     ];
 
@@ -69,8 +69,8 @@ internal class MergeTwoSortedArrayIntoANewSortedArray
         foreach (var testCase in _testCases)
         {
             MergeTwoSortedArrayIntoANewSortedArrayUsingTwoIterationIndices(
-                testCase.ArrayOfElements1,
-                testCase.ArrayOfElements2);
+                testCase.Array1,
+                testCase.Array2);
         }
     }
 }

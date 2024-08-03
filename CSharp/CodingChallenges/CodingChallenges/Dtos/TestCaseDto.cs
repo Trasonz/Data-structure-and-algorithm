@@ -1,16 +1,20 @@
 ﻿
+using CodingChallenges.DataStructures;
+
 namespace CodingChallenges.Dtos;
 
 public class TestCaseDto<T>
 {
-    public T[] ArrayOfElements1 = [];
-    public T[] ArrayOfElements2 = [];
-    public T[][] ArrayOfArraysOfElements = [];
-    public T[] ExpectedArrayOfElements = [];
+    public T[] Array1 = [];
+    public T[] Array2 = [];
+    public T[][] ArrayOfArrays1 = [];
+    public T[] ExpectedArray = [];
 
-    public List<T> ListOfElements = [];
-    public List<List<T>> ListOfListsOfElements = [];
-    public List<T> ExpectedListOfElements = [];
+    public List<T> List1 = [];
+    public List<List<T>> ListOfLists1 = [];
+    public List<T> ExpectedList1 = [];
+
+    public MyLinkedList<T> LinkedList1 = null!;
 
     public int Integer1;
     public int Integer2;

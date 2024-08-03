@@ -8,9 +8,9 @@ internal static class ReverseString
     // The input string is given as an array of characters s.
     private static readonly List<TestCaseDto<char>> _testCases =
     [
-        new() { ArrayOfElements1 = ['h', 'e', 'l', 'l', 'o'] },
-        new() { ArrayOfElements1 = [] },
-        new() { ArrayOfElements1 = ['t', 'e', 'r', 'r', 'y'] },
+        new() { Array1 = ['h', 'e', 'l', 'l', 'o'] },
+        new() { Array1 = [] },
+        new() { Array1 = ['t', 'e', 'r', 'r', 'y'] },
     ];
 
     public static void Reverse(char[] characters)
@@ -32,9 +32,9 @@ internal static class ReverseString
     {
         foreach (var testCase in _testCases)
         {
-            Reverse(testCase.ArrayOfElements1);
+            Reverse(testCase.Array1);
 
-            foreach (var character in testCase.ArrayOfElements1)
+            foreach (var character in testCase.Array1)
             {
                 Console.Write(character);
             }

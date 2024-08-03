@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CodingChallenges.Problems.ArrayProblems.SubArray;
+using CodingChallenges.Problems.LinkedListProblems;
+using CodingChallenges.Problems.StackProblems;
 using CodingChallenges.Problems.StringProblems;
 using CodingChallenges.Problems.StringProblems.SubString;
 
 Console.WriteLine("Hello, welcome to coding challenges!");
-Console.WriteLine();
 
 // String
 //ValidPalindrome.Run();
@@ -16,8 +17,7 @@ Console.WriteLine();
 //CheckIfAllCharactersHaveEqualNumberOfOccurrences.Run();
 //MaximumNumberOfBalloons.Run();
 //RansomNote.Run();
-LongestSubstringWithoutRepeatingCharacters.Run();
-Console.WriteLine();
+//LongestSubstringWithoutRepeatingCharacters.Run();
 
 // Array
 //TwoSum.Run();
@@ -36,9 +36,20 @@ Console.WriteLine();
 //CountNumberOfNiceSubarrays.Run();
 //LargestUniqueNumber.Run();
 //ContiguousArray.Run();
-Console.WriteLine();
 
 // Arrays
 //MergeSortedArray.Run();
 //IntersectionOfMultipleArrays.Run();
 //FindPlayersWithZeroOrOneLosses.Run();
+
+// Linked list
+//MiddleOfTheLinkedList.Run();
+
+// Stack
+//ValidParentheses.Run();
+//RemoveAllAdjacentDuplicatesInString.Run();
+//BackspaceStringCompare.Run();
+//SimplifyPath.Run();
+MakeTheStringGreat.Run();
+
+Console.WriteLine();

@@ -12,12 +12,12 @@ internal class ContiguousArray
 {
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { ArrayOfElements1 = [1, 1,0, 0,1,1,1,0,0,1] },
-        new() { ArrayOfElements1 = [0, 1] },
-        new() { ArrayOfElements1 = [1, 0] },
-        new() { ArrayOfElements1 = [0, 1, 0] },
-        new() { ArrayOfElements1 = [0,0,1,1,1,0,0,1,0,1,1,0] },
-        new() { ArrayOfElements1 = [0,0,1,1,1,0,0,1,1,1] },
+        new() { Array1 = [1, 1,0, 0,1,1,1,0,0,1] },
+        new() { Array1 = [0, 1] },
+        new() { Array1 = [1, 0] },
+        new() { Array1 = [0, 1, 0] },
+        new() { Array1 = [0,0,1,1,1,0,0,1,0,1,1,0] },
+        new() { Array1 = [0,0,1,1,1,0,0,1,1,1] },
     ];
 
     public static int FindContiguousArrayUsingPrefixSumHashMap(int[] numbers)
@@ -59,7 +59,7 @@ internal class ContiguousArray
             Console.Write($"Result: ");
 
             Console.WriteLine(FindContiguousArrayUsingPrefixSumHashMap(
-                testCase.ArrayOfElements1));
+                testCase.Array1));
         }
     }
 }

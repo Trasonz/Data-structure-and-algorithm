@@ -16,16 +16,16 @@ internal static class MergeSortedArray
     [
         new()
         {
-            ArrayOfElements1 = [1,2,3,0,0,0],
+            Array1 = [1,2,3,0,0,0],
             Integer1 = 3,
-            ArrayOfElements2 = [2, 5, 6],
+            Array2 = [2, 5, 6],
             Integer2 = 3
         },
         new()
         {
-            ArrayOfElements1 = [3,0,0,0],
+            Array1 = [3,0,0,0],
             Integer1 = 1,
-            ArrayOfElements2 = [1, 4, 7],
+            Array2 = [1, 4, 7],
             Integer2 = 3
         },
     ];
@@ -72,9 +72,9 @@ internal static class MergeSortedArray
         foreach (var testCase in _testCases)
         {
             MergeSortedArrayUsingTwoIterationIndices(
-                testCase.ArrayOfElements1,
+                testCase.Array1,
                 testCase.Integer1,
-                testCase.ArrayOfElements2,
+                testCase.Array2,
                 testCase.Integer2);
         }
     }
