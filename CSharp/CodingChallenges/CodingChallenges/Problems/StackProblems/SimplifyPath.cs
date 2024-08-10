@@ -19,8 +19,6 @@ internal class SimplifyPath
 
     public static string SimplifyPathUsingStack(string path) // n
     {
-        char a = 'A';
-        var b = Char.ToLower(a).Equals(a);
         string[] components = path.Split('/');
         Stack<string> directoryStack = new Stack<string>();
 
@@ -50,7 +48,7 @@ internal class SimplifyPath
         StringBuilder result = new StringBuilder();
         foreach (string directory in directoryStack.Reverse())
         {
-            result.Append("/");
+            result.Append('/');
             result.Append(directory);
         }
 

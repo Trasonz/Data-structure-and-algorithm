@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CodingChallenges.Problems.ArrayProblems.SubArray;
 using CodingChallenges.Problems.LinkedListProblems;
+using CodingChallenges.Problems.QueueProblems;
 using CodingChallenges.Problems.StackProblems;
 using CodingChallenges.Problems.StringProblems;
 using CodingChallenges.Problems.StringProblems.SubString;
@@ -50,6 +51,10 @@ Console.WriteLine("Hello, welcome to coding challenges!");
 //RemoveAllAdjacentDuplicatesInString.Run();
 //BackspaceStringCompare.Run();
 //SimplifyPath.Run();
-MakeTheStringGreat.Run();
+//MakeTheStringGreat.Run();
+//DailyTemperatures.Run();
+
+// Queue
+SlidingWindowMaximum.Run();
 
 Console.WriteLine();
