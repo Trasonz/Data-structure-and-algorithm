@@ -7,6 +7,7 @@ public class TestCaseDto<T>
 {
     public T[] Array1 = [];
     public T[] Array2 = [];
+    public T[] Array3 = [];
     public T[][] ArrayOfArrays1 = [];
     public T[] ExpectedArray = [];
 

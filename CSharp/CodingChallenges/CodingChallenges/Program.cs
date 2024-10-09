@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using CodingChallenges.Problems;
 using CodingChallenges.Problems.ArrayProblems.SubArray;
 using CodingChallenges.Problems.LinkedListProblems;
 using CodingChallenges.Problems.QueueProblems;
@@ -55,6 +56,8 @@ Console.WriteLine("Hello, welcome to coding challenges!");
 //DailyTemperatures.Run();
 
 // Queue
-SlidingWindowMaximum.Run();
+// SlidingWindowMaximum.Run();
 
-Console.WriteLine();
+Test.Run();
+
+Console.WriteLine((int)3/2);
