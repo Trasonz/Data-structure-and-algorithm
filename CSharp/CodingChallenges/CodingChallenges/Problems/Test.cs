@@ -167,3 +167,26 @@ public class Completed
         return heroTotalCoins;
     }
 }
+
+public class StockPrice
+{
+    static Stack<int[]> stockPrices = [];
+
+    public static int Next(int price)
+    {
+        int count = 1;
+
+        // If the stack has value and the last element of the stack is smaller
+        // than the price, increase the count with the previous count.
+        // Also pop that element out of the stack.
+        while (stockPrices.Count > 0 && stockPrices.Peek()[0] < price)
+        {
+            count += stockPrices.Pop()[1];
+        }
+
+        stockPrices.Push([price, count]);
+
+        // Return the count of current price
+        return count;
+    }
+}

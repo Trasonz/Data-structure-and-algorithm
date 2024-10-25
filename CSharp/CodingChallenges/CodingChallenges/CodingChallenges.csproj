@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Problems\NewFolder\**" />
-    <EmbeddedResource Remove="Problems\NewFolder\**" />
-    <None Remove="Problems\NewFolder\**" />
-  </ItemGroup>
-
 </Project>
