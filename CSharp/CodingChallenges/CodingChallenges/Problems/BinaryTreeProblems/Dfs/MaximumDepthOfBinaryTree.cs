@@ -1,6 +1,6 @@
 ﻿using CodingChallenges.DataStructures;
 
-namespace CodingChallenges.Problems.LinkedListProblems;
+namespace CodingChallenges.Problems.LinkedListProblems.Dfs;
 internal class MaximumDepthOfBinaryTree
 {
     private static TreeNode<int> CreateRootNode()

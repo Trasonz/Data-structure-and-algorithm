@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodingChallenges.Problems.BinaryTreeProblems;
+namespace CodingChallenges.Problems.BinaryTreeProblems.Dfs;
 internal class PathSum
 {
     private static TreeNode<int> CreateRootNode()
@@ -26,7 +26,7 @@ internal class PathSum
 
     private static readonly List<TestCaseDto<int>> _testCases =
     [
-        new() { TreeNode = CreateRootNode(), Integer1 = 22 },
+        new() { TreeRootNode = CreateRootNode(), Integer1 = 22 },
     ];
 
     public static bool HasPathSum(TreeNode<int> treeNode, int targetSum)
@@ -50,7 +50,7 @@ internal class PathSum
     {
         foreach (var testCase in _testCases)
         {
-            Console.WriteLine(HasPathSum(testCase.TreeNode!, testCase.Integer1));
+            Console.WriteLine(HasPathSum(testCase.TreeRootNode!, testCase.Integer1));
         }
     }
 }

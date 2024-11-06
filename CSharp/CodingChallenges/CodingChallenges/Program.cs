@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CodingChallenges.Problems;
 using CodingChallenges.Problems.ArrayProblems.SubArray;
-using CodingChallenges.Problems.BinaryTreeProblems;
+using CodingChallenges.Problems.BinaryTreeProblems.Bfs;
+using CodingChallenges.Problems.BinaryTreeProblems.Dfs;
+using CodingChallenges.Problems.GraphProblems;
 using CodingChallenges.Problems.LinkedListProblems;
 using CodingChallenges.Problems.QueueProblems;
 using CodingChallenges.Problems.StackProblems;
@@ -60,7 +62,17 @@ Console.WriteLine("Hello, welcome to coding challenges!");
 // SlidingWindowMaximum.Run();
 
 // Binary tree
+//TestTraversalOrder.Run();
 //MaximumDepthOfBinaryTree.Run();
-PathSum.Run();
+//PathSum.Run();
+//LowestCommonAncestorOfABinaryTree.Run();
+//MinimumDepthofBinaryTree.Run();
+//BinaryTreeRightSideView.Run();
+
+// Graph
+//NumberOfProvinces.Run();
+//NumberOfIslands.Run();
+//ReorderRoutestoMakeAllPathsLeadtotheCityZero.Run();
+NumberofConnectedComponentsinanUndirectedGraph.Run();
 
 Test.Run();

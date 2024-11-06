@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace CodingChallenges.Problems.BinaryTreeProblems;
+namespace CodingChallenges.Problems.BinaryTreeProblems.Dfs;
 public class CountGoodNodesInBinaryTree
 {
     private static TreeNode<int> CreateRootNode()

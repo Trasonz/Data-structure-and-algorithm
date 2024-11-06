@@ -16,7 +16,9 @@ public class TestCaseDto<T>
     public List<T> ExpectedList1 = [];
 
     public MyLinkedList<T> LinkedList1 = null!;
-    public TreeNode<T>? TreeNode;
+    public TreeNode<T>? TreeRootNode;
+    public TreeNode<T>? TreeNode1;
+    public TreeNode<T>? TreeNode2;
 
     public int Integer1;
     public int Integer2;

@@ -1,4 +1,9 @@
-﻿using CodingChallenges.Dtos;
+﻿using CodingChallenges.DataStructures;
+using CodingChallenges.Dtos;
+using System.Collections;
+using System.Collections.Generic;
+using System.Numerics;
+using System.Xml.Linq;
 
 namespace CodingChallenges.Problems;
 
@@ -11,6 +16,31 @@ public class Test
         },
     ];
 
+    public IList<int> FindSmallestSetOfVertices(int numberOfNodes, IList<IList<int>> edges)
+    {
+        // List to signify if the vertex has an incoming edge or not.
+        bool[] hasNodeBs = new bool[numberOfNodes];
+
+        foreach (var edge in edges)
+        {
+            // edge[1]: nodeB
+            hasNodeBs[edge[1]] = true;
+        }
+
+        List<int> nodeAIndices = [];
+
+        // Find nodeAs that doesn't connect to the list of nodeBs
+        for (int index = 0; index < numberOfNodes; index++)
+        {
+            if (!hasNodeBs[index])
+            {
+                nodeAIndices.Add(index);
+            }
+        }
+
+        return nodeAIndices;
+    }
+
     public static void Run()
     {
         foreach (var testCase in _testCases)
@@ -22,9 +52,190 @@ public class Test
 
 public class Completed
 {
+
+    public bool CanVisitAllRooms(IList<IList<int>> rooms)
+    {
+        bool[] hasKeyList = new bool[rooms.Count];
+        Stack<int> visitedRooms = [];
+
+        // First room needs no key
+        hasKeyList[0] = true;
+
+        // First room is allowed to visit without a key
+        visitedRooms.Push(0);
+
+        //At the beginning, we have a todo list "keys" of keys to use.
+        //'seen' represents at some point we have entered this room.
+        while (visitedRooms.Count > 0)
+        {
+            int currentRoom = visitedRooms.Pop();
+
+            foreach (int key in rooms[currentRoom])
+            {
+                // If the key doesn't exist in the list, collect it
+                // Also mark the room with that key is available to visit
+                if (!hasKeyList[key])
+                {
+                    hasKeyList[key] = true;
+                    visitedRooms.Push(key);
+                }
+            }
+        }
+
+        // If any key was not collected, return false
+        return !hasKeyList.Any(hasKey => !hasKey);
+    }
+
+    public int ClosestValue(TreeNode<int>? treeNode, double target)
+    {
+        int closestNodeValue = treeNode?.val ?? 0;
+
+        while (treeNode != null)
+        {
+            int currentNodeValue = treeNode.val;
+
+            bool isCurrentNodeValueCloseToTargetThanRoot = Math.Abs(currentNodeValue - target) <
+                Math.Abs(closestNodeValue - target);
+            bool isCurrentNodeValueToTargetEqualRoot = Math.Abs(currentNodeValue - target) ==
+                Math.Abs(closestNodeValue - target);
+            bool isCurrentNodeValueSmallerThanEqualRoot = currentNodeValue < closestNodeValue;
+
+            closestNodeValue = isCurrentNodeValueCloseToTargetThanRoot ||
+                (isCurrentNodeValueToTargetEqualRoot && isCurrentNodeValueSmallerThanEqualRoot)
+                    ? currentNodeValue : closestNodeValue;
+
+            treeNode = target < currentNodeValue ? treeNode.left : treeNode.right;
+        }
+
+        return closestNodeValue;
+    }
+
+    public TreeNode<int> InsertIntoBST(TreeNode<int>? treeNode, int val)
+    {
+        if (treeNode == null)
+        {
+            return new TreeNode<int>(val);
+        }
+
+        // insert into the right subtree
+        if (val > treeNode.val)
+        {
+            treeNode.right = InsertIntoBST(treeNode.right, val);
+        }
+        // insert into the left subtree
+        else
+        {
+            treeNode.left = InsertIntoBST(treeNode.left, val);
+        }
+
+        return treeNode;
+    }
+
+    public IList<IList<int>> ZigzagLevelOrder(TreeNode<int> treeNode)
+    {
+        var result = new List<IList<int>>();
+
+        if (treeNode == null)
+        {
+            return result;
+        }
+
+        var queue = new Queue<TreeNode<int>?>();
+        queue.Enqueue(treeNode);
+        queue.Enqueue(null);
+
+        // A linked list to store all nodes on the same row
+        var row = new LinkedList<int>();
+        bool isFromLeftToRight = true;
+
+        while (queue.Count > 0)
+        {
+            TreeNode<int>? currentTreeNode = queue.Dequeue();
+
+            if (currentTreeNode != null)
+            {
+                // If from left to right, add at the end
+                // Else, add at begin
+                if (isFromLeftToRight)
+                {
+                    row.AddLast(currentTreeNode.val);
+                }
+                else
+                {
+                    row.AddFirst(currentTreeNode.val);
+                }
+
+                if (currentTreeNode.left != null)
+                {
+                    queue.Enqueue(currentTreeNode.left);
+                }
+
+                if (currentTreeNode.right != null)
+                {
+                    queue.Enqueue(currentTreeNode.right);
+                }
+            }
+            // After fully checked a row
+            else
+            {
+                result.Add([.. row]);
+                row.Clear();
+
+                // If there are nodes in the next row added
+                // Add a null at the end
+                if (queue.Count > 0)
+                {
+                    queue.Enqueue(null);
+                }
+
+                // Switch the direction
+                isFromLeftToRight = !isFromLeftToRight;
+            }
+        }
+
+        return result;
+    }
+
+    public static int DeepestLeavesSum(TreeNode<int> treeNode)
+    {
+        if (treeNode == null)
+        {
+            return 0;
+        }
+
+        int sum = 0;
+        var queue = new Queue<TreeNode<int>>();
+        queue.Enqueue(treeNode);
+
+        while (queue.Count > 0)
+        {
+            // Store the original length before more nodes are added
+            int numberOfTreeNodesInQueue = queue.Count;
+            sum = 0;
+            // Go until meeting the tree currentTreeNode on the right
+            for (int index = 0; index < numberOfTreeNodesInQueue; index++)
+            {
+                TreeNode<int> currentTreeNode = queue.Dequeue();
+                sum += currentTreeNode.val;
+
+                if (currentTreeNode.left != null)
+                {
+                    queue.Enqueue(currentTreeNode.left);
+                }
+
+                if (currentTreeNode.right != null)
+                {
+                    queue.Enqueue(currentTreeNode.right);
+                }
+            }
+        }
+
+        return sum;
+    }
+
     public static int[] NextGreaterElement(int[] numbers1, int[] numbers2)
     {
-        // A stack to store previous unchecked number
+        // A keys to store previous unchecked number
         Stack<int> uncheckedNumbers = [];
 
         // Map numbers and their next greater number on their rightIndex
@@ -33,17 +244,17 @@ public class Completed
         // Loop through numbers2 to build a hash map
         foreach (int number in numbers2)
         {
-            // While the stack is not empty and the latest element is
+            // While the keys is not empty and the latest element is
             // smaller than the current number in numbers2
             while (uncheckedNumbers.Count > 0 &&
                 uncheckedNumbers.Peek() < number)
             {
-                // Pop the latest element from the stack and
+                // Pop the latest element from the keys and
                 // put it to the hash map
                 numberMap.Add(uncheckedNumbers.Pop(), number);
             }
 
-            // Put the number in the stack
+            // Put the number in the keys
             uncheckedNumbers.Push(number);
         }
 
@@ -176,9 +387,9 @@ public class StockPrice
     {
         int count = 1;
 
-        // If the stack has value and the last element of the stack is smaller
+        // If the keys has value and the last element of the keys is smaller
         // than the price, increase the count with the previous count.
-        // Also pop that element out of the stack.
+        // Also pop that element out of the keys.
         while (stockPrices.Count > 0 && stockPrices.Peek()[0] < price)
         {
             count += stockPrices.Pop()[1];
@@ -190,3 +401,78 @@ public class StockPrice
         return count;
     }
 }
+
+public class FindifPathExistsinGraph
+{    
+    private bool CheckPathBetweenNodes(
+        Dictionary<int, List<int>> graph,
+        bool[] visitedNodes,
+        int scanNode,
+        int destinationNode)
+    {
+        // There is a path to the destination node
+        if (scanNode == destinationNode)
+        {
+            return true;
+        }
+
+        if (!visitedNodes[scanNode])
+        {
+            visitedNodes[scanNode] = true;
+
+            for (int index = 0; index < graph[scanNode].Count; index++)
+            {
+                // graph[scanNode][index]: list of neighbors
+                if (CheckPathBetweenNodes(
+                    graph, 
+                    visitedNodes, 
+                    graph[scanNode][index], 
+                    destinationNode))
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public bool ValidPath(
+        int numberOfNodes, 
+        int[][] edges, 
+        int sourceNode, 
+        int destinationNode)
+    {
+        Dictionary<int, List<int>> graph = [];
+
+        bool[] visitedNodes = new bool[numberOfNodes];
+
+        for (int index = 0; index < edges.Length; index++)
+        {
+            // edges[index][0]: nodeA, edges[index][1]: nodeB
+            if (!graph.TryGetValue(
+                    edges[index][0],
+                    out List<int>? nodeANeighbors))
+            {
+                nodeANeighbors =[];
+                graph.Add(edges[index][0], nodeANeighbors);
+            }
+
+            nodeANeighbors.Add(edges[index][1]);
+
+
+            if (!graph.TryGetValue(
+                    edges[index][1],
+                    out List<int>? nodeBNeighbors))
+            {
+                nodeBNeighbors = ([]);
+                graph.Add(edges[index][1], nodeBNeighbors);
+            }
+
+            nodeBNeighbors.Add(edges[index][0]);
+        }
+
+        return CheckPathBetweenNodes(graph, visitedNodes, sourceNode, destinationNode);
+    }
+}
+
