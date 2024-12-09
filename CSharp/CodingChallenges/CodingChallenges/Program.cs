@@ -73,6 +73,9 @@ Console.WriteLine("Hello, welcome to coding challenges!");
 //NumberOfProvinces.Run();
 //NumberOfIslands.Run();
 //ReorderRoutestoMakeAllPathsLeadtotheCityZero.Run();
-NumberofConnectedComponentsinanUndirectedGraph.Run();
+//NumberofConnectedComponentsinanUndirectedGraph.Run();
+//FindMaxAreaOfIsland.Run();
+//ShortestPathInBinaryMatrix.Run();
+AllNodesDistanceKinBinaryTree.Run();
 
 Test.Run();

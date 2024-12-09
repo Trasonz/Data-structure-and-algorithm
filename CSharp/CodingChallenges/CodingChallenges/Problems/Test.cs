@@ -1,7 +1,9 @@
 ﻿using CodingChallenges.DataStructures;
 using CodingChallenges.Dtos;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Numerics;
 using System.Xml.Linq;
 
@@ -473,6 +475,70 @@ public class FindifPathExistsinGraph
         }
 
         return CheckPathBetweenNodes(graph, visitedNodes, sourceNode, destinationNode);
+    }
+}
+
+public class ReachableNodesWithRestrictions
+{
+    private int count = 0;
+
+    private void CountNodes(int nodeValue, Dictionary<int, List<int>> graph, HashSet<int> visitedNodes)
+    {
+        // Mark 'currNode' as visited and increment 'ans' by 1.
+        count++;
+        visitedNodes.Add(nodeValue);
+
+        // Go for unvisited neighbors of 'currNode'.
+        foreach (int neighborNodeValue in graph[nodeValue])
+        {
+            if (!visitedNodes.Contains(neighborNodeValue))
+            {
+                CountNodes(neighborNodeValue, graph, visitedNodes);
+            }
+        }
+    }
+
+    public int ReachableNodes(int numberOfNodes, int[][] edges, int[] restrictedNodes)
+    {
+        //Store all edges according to nodes in 'neighbors'.
+        Dictionary<int, List<int>> graph = [];
+
+        for (int index = 0; index < edges.Length; index++)
+        {
+            // edges[index][0]: nodeA, edges[index][1]: nodeB
+            if (!graph.TryGetValue(
+                    edges[index][0],
+                    out List<int>? nodeANeighbors))
+            {
+                nodeANeighbors = [];
+                graph.Add(edges[index][0], nodeANeighbors);
+            }
+
+            nodeANeighbors.Add(edges[index][1]);
+
+
+            if (!graph.TryGetValue(
+                    edges[index][1],
+                    out List<int>? nodeBNeighbors))
+            {
+                nodeBNeighbors = ([]);
+                graph.Add(edges[index][1], nodeBNeighbors);
+            }
+
+            nodeBNeighbors.Add(edges[index][0]);
+
+        }
+
+        // Mark the nodes in 'restricted' as visited.
+        HashSet<int> visitedNodes = [];
+
+        foreach (int node in restrictedNodes)
+        {
+            visitedNodes.Add(node);
+        }
+
+        CountNodes(0, graph, visitedNodes);
+        return count;
     }
 }
 

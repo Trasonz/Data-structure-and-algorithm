@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\numberofconnectedcomponentsinanundirectedgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\numberofconnectedcomponentsinanundirectedgraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\allnodesdistancekinbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\allnodesdistancekinbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,64 +15,20 @@
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\reorderroutestomakeallpathsleadtothecityzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\reorderroutestomakeallpathsleadtothecityzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\numberofislands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\numberofislands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\dtos\\testcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\bfs\\findlargestvalueineachtreerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\bfs\\findlargestvalueineachtreerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\numberofprovinces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\numberofprovinces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\bfs\\binarytreerightsideview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\bfs\\binarytreerightsideview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\arraysproblem\\findplayerswithzerooronelosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\arraysproblem\\findplayerswithzerooronelosses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\utilities\\printutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\pathsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\pathsum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\countgoodnodesinbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\countgoodnodesinbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\testtraversalorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\testtraversalorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\findmaxareaofisland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\findmaxareaofisland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\minimumdepthofbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\minimumdepthofbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\maximumdepthofbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\maximumdepthofbinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\binarytreeproblems\\dfs\\lowestcommonancestorofabinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\binarytreeproblems\\dfs\\lowestcommonancestorofabinarytree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\linkedlistproblems\\middleofthelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\linkedlistproblems\\middleofthelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|c:\\users\\thinh le\\documents\\projects\\coding-challenges\\csharp\\codingchallenges\\codingchallenges\\problems\\graphproblems\\shortestpathinbinarymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C073239-959B-4CAA-AE1E-5582E9A21101}|CodingChallenges\\CodingChallenges.csproj|solutionrelative:codingchallenges\\problems\\graphproblems\\shortestpathinbinarymatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,105 +38,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NumberofConnectedComponentsinanUndirectedGraph.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberofConnectedComponentsinanUndirectedGraph.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\NumberofConnectedComponentsinanUndirectedGraph.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberofConnectedComponentsinanUndirectedGraph.cs*",
-              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\NumberofConnectedComponentsinanUndirectedGraph.cs*",
-              "ViewState": "AgIAABcAAAAAAAAAAIAwwCIAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Program.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
+              "RelativeToolTip": "CodingChallenges\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T13:27:17.255Z",
+              "WhenOpened": "2024-11-07T17:30:37.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ReorderRoutestoMakeAllPathsLeadtotheCityZero.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\ReorderRoutestoMakeAllPathsLeadtotheCityZero.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\ReorderRoutestoMakeAllPathsLeadtotheCityZero.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\ReorderRoutestoMakeAllPathsLeadtotheCityZero.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\ReorderRoutestoMakeAllPathsLeadtotheCityZero.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAASwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T00:40:24.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NumberOfIslands.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberOfIslands.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\NumberOfIslands.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberOfIslands.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\NumberOfIslands.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T22:18:48.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FindPlayersWithZeroOrOneLosses.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\ArraysProblem\\FindPlayersWithZeroOrOneLosses.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:24:28.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FindLargestValueinEachTreeRow.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\FindLargestValueinEachTreeRow.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\FindLargestValueinEachTreeRow.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\FindLargestValueinEachTreeRow.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\FindLargestValueinEachTreeRow.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwEcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:54:15.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PrintUtility.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Utilities\\PrintUtility.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Utilities\\PrintUtility.cs",
-              "RelativeToolTip": "CodingChallenges\\Utilities\\PrintUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:22:32.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "BinaryTreeRightSideView.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\BinaryTreeRightSideView.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\BinaryTreeRightSideView.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\BinaryTreeRightSideView.cs",
               "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Bfs\\BinaryTreeRightSideView.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:19:32.043Z"
+              "WhenOpened": "2024-11-07T17:26:47.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MiddleOfTheLinkedList.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\LinkedListProblems\\MiddleOfTheLinkedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FindMaxAreaOfIsland.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\FindMaxAreaOfIsland.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\FindMaxAreaOfIsland.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\FindMaxAreaOfIsland.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\FindMaxAreaOfIsland.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAqwEUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:09:54.992Z"
+              "WhenOpened": "2024-11-07T17:25:42.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllNodesDistanceKinBinaryTree.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\AllNodesDistanceKinBinaryTree.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\AllNodesDistanceKinBinaryTree.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\AllNodesDistanceKinBinaryTree.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\AllNodesDistanceKinBinaryTree.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T17:25:21.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -190,119 +100,34 @@
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\Test.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\Test.cs",
               "RelativeToolTip": "CodingChallenges\\Problems\\Test.cs",
-              "ViewState": "AgIAANoBAAAAAAAAAAAUwNwBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0CAAAAAAAAAAAkwB4CAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:06:02.205Z",
+              "WhenOpened": "2024-11-07T02:33:02.157Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CountGoodNodesInBinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\CountGoodNodesInBinaryTree.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\CountGoodNodesInBinaryTree.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\CountGoodNodesInBinaryTree.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\CountGoodNodesInBinaryTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:36:40.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MaximumDepthOfBinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MaximumDepthOfBinaryTree.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MaximumDepthOfBinaryTree.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MaximumDepthOfBinaryTree.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MaximumDepthOfBinaryTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:06:18.375Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TestCaseDto.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "RelativeToolTip": "CodingChallenges\\Dtos\\TestCaseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:36:43.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Program.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Program.cs",
-              "RelativeToolTip": "CodingChallenges\\Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAEsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:52:50.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NumberOfProvinces.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberOfProvinces.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\NumberOfProvinces.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\NumberOfProvinces.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\NumberOfProvinces.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T18:26:21.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "MinimumDepthofBinaryTree.cs",
               "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MinimumDepthofBinaryTree.cs",
               "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MinimumDepthofBinaryTree.cs",
               "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MinimumDepthofBinaryTree.cs",
               "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\MinimumDepthofBinaryTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T19:06:16.553Z"
+              "WhenOpened": "2024-11-07T02:32:42.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PathSum.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\PathSum.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\PathSum.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\PathSum.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\PathSum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ShortestPathInBinaryMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\ShortestPathInBinaryMatrix.cs",
+              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\GraphProblems\\ShortestPathInBinaryMatrix.cs",
+              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\GraphProblems\\ShortestPathInBinaryMatrix.cs",
+              "RelativeToolTip": "CodingChallenges\\Problems\\GraphProblems\\ShortestPathInBinaryMatrix.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAqwHwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:24:34.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LowestCommonAncestorOfABinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\LowestCommonAncestorOfABinaryTree.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\LowestCommonAncestorOfABinaryTree.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\LowestCommonAncestorOfABinaryTree.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\LowestCommonAncestorOfABinaryTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:22:08.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TestTraversalOrder.cs",
-              "DocumentMoniker": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\TestTraversalOrder.cs",
-              "RelativeDocumentMoniker": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\TestTraversalOrder.cs",
-              "ToolTip": "C:\\Users\\Thinh Le\\Documents\\Projects\\coding-challenges\\CSharp\\CodingChallenges\\CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\TestTraversalOrder.cs",
-              "RelativeToolTip": "CodingChallenges\\Problems\\BinaryTreeProblems\\Dfs\\TestTraversalOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T14:16:33.994Z"
+              "WhenOpened": "2024-11-07T01:23:37.587Z"
             }
           ]
         }
